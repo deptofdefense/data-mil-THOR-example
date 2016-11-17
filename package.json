@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/readywater/data-mil-THOR-example.git"
   },
+  "scripts":{
+    "dev" : "lite-server"
+  },
   "keywords": [
     "dataviz",
     "military",
@@ -22,8 +25,10 @@
     "url": "https://github.com/readywater/data-mil-THOR-example/issues"
   },
   "homepage": "https://github.com/readywater/data-mil-THOR-example#readme",
-  "dev" : "lite-server",
+  "dev": "lite-server",
   "devDependencies": {
+    "browser-sync": "^2.18.1",
+    "less": "^2.7.1",
     "lite-server": "^2.2.2"
   }
 }
