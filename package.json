@@ -1,0 +1,29 @@
+{
+  "name": "data-mil-thor-ww1",
+  "version": "1.0.0",
+  "description": "A quick demo of what one might do with the THOR dataset that lives on Data.mil",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/readywater/data-mil-THOR-example.git"
+  },
+  "keywords": [
+    "dataviz",
+    "military",
+    "dod",
+    "ww1",
+    "bomb",
+    "leaflet",
+    "mapbox"
+  ],
+  "author": "Andrew Lovett-Barron/Brandon Bouier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/readywater/data-mil-THOR-example/issues"
+  },
+  "homepage": "https://github.com/readywater/data-mil-THOR-example#readme",
+  "dev" : "lite-server",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
