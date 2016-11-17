@@ -1,8 +1,9 @@
 # Data.mil THOR example
+## The Meuse-Argonne Offensive
 
 A quick demo of what one might do with the THOR dataset that lives on Data.mil
 
-By the (Defense Digital Service)[http://dds.mil]
+By the [Defense Digital Service](http://dds.mil)
 
 ### References
 [Meuse-Argonne Offensive](https://en.wikipedia.org/wiki/Meuse-Argonne_Offensive)
