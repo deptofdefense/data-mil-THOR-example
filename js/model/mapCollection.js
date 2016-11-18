@@ -9,7 +9,7 @@ muarg.Collections = muarg.Collections || {};
 
         model: muarg.Models.mapModel,
 
-    	// url: '/map',
+    	url: '',
         
         initialize: function(option) {
             
