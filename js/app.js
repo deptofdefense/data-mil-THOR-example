@@ -19,9 +19,19 @@ window.muarg = {
             collection:this.Init.mapData,
         });
 
-        _.each(this.Init, function(v){
-            v.initialize();
-        })
+        this.Init.infoView = new this.Views.infoView({
+            el: '#info',
+            collection:this.Init.mapData,
+        });
+
+        this.Init.timelineView = new this.Views.timelineView({
+            el: '#timeline',
+            collection:this.Init.mapData,
+        });
+        // Auto inits, or use this if not
+        // _.each(this.Init, function(v){
+        //     // v.initialize();
+        // })
 
     },
 

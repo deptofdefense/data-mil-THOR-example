@@ -40,7 +40,7 @@ body {
 	height: 100%;
 }
 
-.info {
+#info {
 
 	p {
 		font-family: "Source Sans Pro",sans-serif;
@@ -59,7 +59,7 @@ body {
 	padding: 20px 40px;
 	position: relative;
 	background: #FFFFFF;
-	border: 1px solid #323A44;
+	border: 2px solid #323A44;
 
 	.country {
 		width: 75px; height:75px;
@@ -70,6 +70,26 @@ body {
 		background-size: contain;
 		background-repeat:no-repeat;
 		margin: 5px auto;
+	}
+	.controls {
+		position: absolute;
+		top: 0; right: 0;
+		margin: 5px 40px 10px 40px;
+	}
+	.next {
+		padding: 0 10px;
+		float:right;
+	}
+	.prev {
+		padding: 0 10px;
+		float:left;
+	}
+
+	.content {
+		-webkit-transition: width .3s, max-height 1s, opacity 2s;
+		transition: width .3s, max-height 1s, opacity 2s;
+	    overflow:hidden;
+	    max-height:600px;
 	}
 }
 
@@ -83,7 +103,7 @@ body {
 	bottom: 0;
 	max-width:1280px;
 	width:1280px;
-	.timeline {
+	#timeline {
 		width: 100%;
 		height:70px!important;
 		opacity: 0.8;

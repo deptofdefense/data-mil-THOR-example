@@ -35,14 +35,20 @@
             </div>
         </div>
         <div class="row">
-            <div class="info col-md-4 col-md-offset-8">
-            <div class="country"></div>
-            <h3>Test</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis quis ante vel accumsan. In vulputate non est et luctus. Curabitur vel erat sit.</p>
-            <h3>Test</h3>
-            <p>Morbi vel tellus eu elit elementum laoreet. Integer a luctus enim. Proin ex leo, congue at enim eu, tincidunt porttitor magna. Vivamus sit amet mauris id metus commodo consequat. Mauris tincidunt, velit eu ultricies hendrerit, magna nulla pharetra ligula, sed tincidunt turpis turpis sed nibh.</p>
-            <h3>Test</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis quis ante vel accumsan. In vulputate non est et luctus. Curabitur vel erat sit.</p>
+            <div id="info" class="col-md-4 col-md-offset-8">
+                <div class="country"></div>
+                <div class="controls">
+                    <div class="prev">Prev</div>
+                    <div class="next">Next</div>
+                </div>
+                <div class="content">
+                <h3>Test</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis quis ante vel accumsan. In vulputate non est et luctus. Curabitur vel erat sit.</p>
+                <h3>Test</h3>
+                <p>Morbi vel tellus eu elit elementum laoreet. Integer a luctus enim. Proin ex leo, congue at enim eu, tincidunt porttitor magna. Vivamus sit amet mauris id metus commodo consequat. Mauris tincidunt, velit eu ultricies hendrerit, magna nulla pharetra ligula, sed tincidunt turpis turpis sed nibh.</p>
+                <h3>Test</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis quis ante vel accumsan. In vulputate non est et luctus. Curabitur vel erat sit.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -50,7 +56,7 @@
 
     <footer id="controls" class="container-fluid bottom">
         <div class="row">
-            <div class="col-md-12 timeline">
+            <div class="col-md-12" id="timeline">
             </div>
         </div>
     </footer>
@@ -71,6 +77,8 @@
     <script src="js/model/mapModel.js"></script>
     <script src="js/model/mapCollection.js"></script>
     <script src="js/view/mapView.js"></script>
+    <script src="js/view/infoView.js"></script>
+    <script src="js/view/timelineView.js"></script>
 
     </body>
 
