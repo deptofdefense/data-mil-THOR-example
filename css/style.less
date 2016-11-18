@@ -13,7 +13,7 @@ body {
 }
 
 #content {
-	position: absolute;
+	// position: absolute;
 	max-width:1280px;
 	width:1280px;
 	position: relative;
@@ -46,9 +46,16 @@ body {
 }
 
 #controls {
+	z-index: 10;
+	position:absolute;
+	bottom: 0;
+	max-width:1280px;
+	width:1280px;
 	.timeline {
-		height:70px;
-		position: absolute;
-		bottom: 0; left: 0;
+		width: 100%;
+		height:70px!important;
+		opacity: 0.8;
+		background: #007CC3;
+		border-radius: 10px 10px 0 0;
 	}
 }
