@@ -1,0 +1,36 @@
+#map {
+    height: 450px;
+    margin: 15px auto;
+}
+
+.legend, .temporal-legend {
+    padding: 6px 10px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+#legendTitle {
+    text-align: center;
+    margin-bottom: 15px;
+    font-variant: small-caps;
+}
+
+.symbolsContainer {
+    float: left;
+    margin-left: 50px;
+}
+
+.legendCircle {
+    border-radius:50%;
+    border: 1px solid #537898;
+    background: rgba(113, 133, 152, .6);
+    display: inline-block;
+}
+
+.legendValue {
+    position: absolute;
+    right: 8px;
+}
