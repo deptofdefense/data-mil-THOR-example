@@ -9,10 +9,13 @@ muarg.Collections = muarg.Collections || {};
 
         model: muarg.Models.mapModel,
 
-    	url: '',
+    	url: '/js/data/ww1.geojson',
         
         initialize: function(option) {
             
+        },
+        parse: function(response) {
+          return response.features;
         },
     });
 })();

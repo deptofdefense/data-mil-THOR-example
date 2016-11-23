@@ -22,7 +22,7 @@ function lessMiddleware (req, res, next) {
 
 /// Export configuration options
 module.exports = {
-    "files" : "{js,html,css}",
+    "files" : "{*}",
     "server" : {
         "baseDir" : "." ,
         "middleware" : lessMiddleware
