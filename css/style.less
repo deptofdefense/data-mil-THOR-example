@@ -118,32 +118,43 @@ body {
 			height: 50px;
 			.ticked {
 				font-family: "Source Sans Pro",sans-serif;
-				font-size: 16px;
+				font-size: 0;
 				color: #323A44;
 				font-weight:800;
 				padding-top: 4px;
 				position: absolute;
-				left: 0; top: 0;
+				left: 0; top: 15px;
+				margin-left:20px;
 				text-align: center;
 				display: inline;
-				height: 30px; width: 30px;
+				height: 10px; width: 10px;
 				border-radius: 50px;
 				background: rgba(255,255,255,.5);
+				-webkit-transition: all .3s;
+				transition: all .3s;
+
+				&:hover {
+					top: 0;
+					margin-left:0;
+					height: 50px; width: 50px;
+					font-size: 16pt;
+				}
 			}
 		}
 
 		.ticker {
 			position:absolute;
 			top: -35px;
-			left: 0px;
+			left: 15px;
 			height: 70px;
 			width: 30px;
+			margin-left:15px;
 			background-image: url(../img/ticker.png);
 			background-size: contain;
 			background-repeat:no-repeat;
 			margin: 5px auto;
-			-webkit-transition: left .3s, max-height 1s, opacity 2s;
-			transition: left .3s, max-height 1s, opacity 2s;
+			-webkit-transition: left .3s;
+			transition: left .3s;
 
 			.year {
 				font-family: "Source Sans Pro",sans-serif;
