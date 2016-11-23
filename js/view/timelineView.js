@@ -5,6 +5,7 @@ muarg.Views = muarg.Views || {};
 
     muarg.Views.timelineView = Backbone.View.extend({
         events: {
+            'click .ticked':'changeDate'
         },
 
         initialize: function(option) {
@@ -23,11 +24,12 @@ muarg.Views = muarg.Views || {};
                 var dateIndex = _.toArray(_this.collection.dateRange()).indexOf(v.get('properties_date')) // _.findWhere(_this.collection.dateRange(), v.get('properties_date'))
                 console.log(dateIndex)
                 var loc = ( dateIndex/_.size(_this.collection.dateRange())) * $('#timeline').width();
+                if( $('.tick').find('#'+dateIndex).length > 0) return
                 $('.tick').append(
                     $('<div>').addClass('ticked')
                     .attr('id',dateIndex)
                     .css('left',loc)
-                    .html(dateIndex))
+                    .html(String(range[dateIndex]).split('-')[1]+'/'+String(range[dateIndex]).split('-')[2]))
             })
         },
 
@@ -37,7 +39,7 @@ muarg.Views = muarg.Views || {};
         	$('.ticker').css('left',function() {
                 var tickerLoc = (_this.collection.date()[0]/_.size(_this.collection.dateRange())) * $('#timeline').width();
                 // console.log(tickerLoc)
-                return tickerLoc
+                return tickerLoc+15
             }).find('.year').html(_this.collection.date()[1])
         },
 
@@ -48,6 +50,11 @@ muarg.Views = muarg.Views || {};
         resize: function() {
 
         },
+
+        changeDate: function(e) {
+            console.log("Switching to",$(e.currentTarget).attr('id'))
+            this.collection.setDate($(e.currentTarget).attr('id'))
+        }
 
 
 
