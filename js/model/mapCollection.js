@@ -24,7 +24,7 @@ muarg.Collections = muarg.Collections || {};
 
         _date: 0,
 
-    	url: '/js/data/ww1.geojson',
+    	url: 'js/data/ww1.geojson',
         
         initialize: function(option) {
 
