@@ -53,8 +53,16 @@ muarg.Views = muarg.Views || {};
         },
 
         refocus: function() {
-            var model = this.collection.findWhere({'properties_date':this.collection.date()[1]})
-            this.map.panTo([model.get("geometry_coordinates_1"),model.get("geometry_coordinates_0")],model.get("properties_bombings") < 2 ? 13 : 11)
+            // var model = this.collection.findWhere({'properties_date':this.collection.date()[1]})
+            // this.map.panTo([model.get("geometry_coordinates_1"),model.get("geometry_coordinates_0")],model.get("properties_bombings") < 2 ? 13 : 11)
+            var _this = this;
+            var t=[];
+            _.each(_this.collection.getAllCoordsByDate(),function(v){
+                t.push(new L.marker(v))
+            })
+            var feature = L.featureGroup(t)
+            this.map.fitBounds(feature.getBounds().pad(2))
+
         },
 
         renderError: function() {

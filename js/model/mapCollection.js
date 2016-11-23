@@ -8,6 +8,7 @@ muarg.Collections = muarg.Collections || {};
     muarg.Collections.mapCollection = Backbone.Collection.extend({
 
         model: muarg.Models.mapModel,
+
         date: function() {
         	var dr = this.dateRange()
         	return [this._date,dr[this._date]]
@@ -22,7 +23,7 @@ muarg.Collections = muarg.Collections || {};
         	return _.object(_.range(v.length),v)
         },
 
-        _date: 0,
+        _date: 1,
 
     	url: '/js/data/ww1.geojson',
         
@@ -32,6 +33,25 @@ muarg.Collections = muarg.Collections || {};
 
         parse: function(response) {
 	      return response.features
+        },
+
+        getAllCoordsByDate: function(dateIndex) {
+        	var dateIndex = dateIndex || this.date()[0]
+        	var date = this.dateRange()[dateIndex]
+
+        	var t = this.map(function(model) {
+        		if(model.get('properties_date') == date) { 
+	        		return [model.get('geometry_coordinates_1'),model.get('geometry_coordinates_0')]
+	        	} else {
+	        		return
+	        	}
+        	})
+
+        	t = _.filter(t,function(v){
+        		return typeof v !== 'undefined'
+        	})
+
+        	return t
         },
 
         setDate: function(date) {
