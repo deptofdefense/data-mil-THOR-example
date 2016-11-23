@@ -16,7 +16,7 @@ muarg.Views = muarg.Views || {};
 
         render: function() {
             var _this = this;
-            var coord = [this.model.get("geometry").coordinates[1],this.model.get("geometry").coordinates[0]]
+            var coord = [this.model.get("geometry_coordinates_1"),this.model.get("geometry_coordinates_0")]
             if(coord[0] == null || coord[1] == null) return
             // L.marker(coord).addTo(_this.parent.map)
             L.circleMarker(coord, {

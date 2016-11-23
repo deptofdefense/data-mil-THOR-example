@@ -9,16 +9,19 @@ muarg.Collections = muarg.Collections || {};
 
         model: muarg.Models.mapModel,
         date: function() {
-        	return this._date
+        	var dr = this.dateRange()
+        	return [this._date,dr[this._date]]
         },
+
         // Shouldn't process each time
         dateRange: function() {
         	var array = []
         	if(this.length > 1)
-        	this.pluck('properties').forEach(function(v) { array.push(v.date) } )
+        	this.forEach(function(v) { array.push(v.get("properties_date")) } )
         	var v = _.uniq(array)
         	return _.object(_.range(v.length),v)
         },
+
         _date: 0,
 
     	url: '/js/data/ww1.geojson',
@@ -26,13 +29,15 @@ muarg.Collections = muarg.Collections || {};
         initialize: function(option) {
 
         },
+
         parse: function(response) {
-          return response.features;
+	      return response.features
         },
+
         setDate: function(date) {
         	this._date = date
+        	this.trigger('change')
         	return this._date
-        }
-
-    });
+        },
+})
 })();
