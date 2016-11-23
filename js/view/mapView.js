@@ -54,7 +54,7 @@ muarg.Views = muarg.Views || {};
 
         refocus: function() {
             var model = this.collection.findWhere({'properties_date':this.collection.date()[1]})
-            this.map.setView([model.get("geometry_coordinates_1"),model.get("geometry_coordinates_0")],13)
+            this.map.panTo([model.get("geometry_coordinates_1"),model.get("geometry_coordinates_0")],model.get("properties_bombings") < 2 ? 13 : 11)
         },
 
         renderError: function() {

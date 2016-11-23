@@ -7,12 +7,12 @@
          "coordinates": [5.593539, 49.443539]
      },
      "properties": {
-     "location": "Longuyon",
-     "date": "1918-09-18",
-     "bombings": 4,
-     "enemy_action": ["Anti aircraft was very accurate and active north of Verdun."],
-     "bomb_damage_assessment": ["4 bursts observed in town, remainder west of town.  Better results could not be obtained because the flight leader's machine was forced to turn back just as the formation was approaching the objective."],
-     "friendly_casualties": "None"
+   "location": "Longuyon",
+   "date": "1918-09-18",
+   "bombings": 4,
+   "enemy_action": ["Anti aircraft was very accurate and active north of Verdun."],
+   "bomb_damage_assessment": ["4 bursts observed in town, remainder west of town.  Better results could not be obtained because the flight leader's machine was forced to turn back just as the formation was approaching the objective."],
+   "friendly_casualties": "None"
      }
  }, {
      "type": "Feature",
@@ -22,12 +22,12 @@
          "coordinates": [5.184436, 49.387969]
      },
      "properties": {
-     "location": "Dun-sur-Meuse",
-     "date": "1918-09-26",
-     "bombings": 6,
-     "enemy_action":["Antiaircraft very slight and accurate.  6 Pfalz or Fokkers encountered at 10:15, 14,000 ftnear Dun sur Meuse.  Planes were black with white band on fuselage, were seen to  attack 96th Aero Squadron & when 20th Aero Squadron formation came up, they drew of", "Antiaircraft was slight and inaccurate.  6 enemy aircraft attacked from Dun-sur-Meuse to lines.  Very aggressive.  Type Fokker, at 10:35 13,500 ft.  Two enemy planes seen to have crashed to ground, one enemy plane seen to have gone down out of control.", "Anti aircraft very active and inaccurate.  Two enemy machines shot down out of control.  Not able to identify machines or markings.  10 enemy aircraft encountered at 10:10"],
-     "bomb_damage_assessment":["All bombs dropped on Dun sur Meuse, on town and a fire was started", "No bursts observed.  1 aircraft with 20th Sqdn formation", "Ammunition dumps burning north of town.  In center of town, one large fire observed in town"],
-     "friendly_casualties": "Observer, 2nd Lt P.J. O'Donnell killed in combat"
+   "location": "Dun-sur-Meuse",
+   "date": "1918-09-26",
+   "bombings": 6,
+   "enemy_action":["Antiaircraft very slight and accurate.  6 Pfalz or Fokkers encountered at 10:15, 14,000 ftnear Dun sur Meuse.  Planes were black with white band on fuselage, were seen to  attack 96th Aero Squadron & when 20th Aero Squadron formation came up, they drew of", "Antiaircraft was slight and inaccurate.  6 enemy aircraft attacked from Dun-sur-Meuse to lines.  Very aggressive.  Type Fokker, at 10:35 13,500 ft.  Two enemy planes seen to have crashed to ground, one enemy plane seen to have gone down out of control.", "Anti aircraft very active and inaccurate.  Two enemy machines shot down out of control.  Not able to identify machines or markings.  10 enemy aircraft encountered at 10:10"],
+   "bomb_damage_assessment":["All bombs dropped on Dun sur Meuse, on town and a fire was started", "No bursts observed.  1 aircraft with 20th Sqdn formation", "Ammunition dumps burning north of town.  In center of town, one large fire observed in town"],
+   "friendly_casualties": "Observer, 2nd Lt P.J. O'Donnell killed in combat"
      }
  }, {
      "type": "Feature",
@@ -37,12 +37,12 @@
          "coordinates": [5.185866000000001, 49.383321]
      },
      "properties": {
-     "location": "Dun-sur-Meuse",
-     "date": "1918-09-26",
-     "bombings": 1,
-     "enemy_action": ["Antiaircraft very slight and accurate.  6 Pfalz or Fokkers encountered at 10:15, 14,000 ftnear Dun sur Meuse.  Planes were black with white band on fuselage, were seen to  attack 96th Aero Squadron & when 20th Aero Squadron formation came up, they drew of"],
-     "bomb_damage_assessment": ["All bombs dropped on Dun sur Meuse, on town and a fire was started"],
-     "friendly_casualties": "None"
+   "location": "Dun-sur-Meuse",
+   "date": "1918-09-26",
+   "bombings": 1,
+   "enemy_action": ["Antiaircraft very slight and accurate.  6 Pfalz or Fokkers encountered at 10:15, 14,000 ftnear Dun sur Meuse.  Planes were black with white band on fuselage, were seen to  attack 96th Aero Squadron & when 20th Aero Squadron formation came up, they drew of"],
+   "bomb_damage_assessment": ["All bombs dropped on Dun sur Meuse, on town and a fire was started"],
+   "friendly_casualties": "None"
      }
  }, {
      "type": "Feature",
@@ -52,12 +52,12 @@
          "coordinates": [5.640218, 49.212586]
      },
      "properties": {
-     "location": "Etain",
-     "date": "1918-09-26",
-     "bombings": 2,
-     "enemy_action": ["Antiaircraft heavy and accurate SE of Etain. 6 Pfalz or Fokkers observed at 16:50 12,000 ft near Etain."],
-     "bomb_damage_assessment": ["Bursts seen in town of Etain", "Bursts observed on the railroad tracks on entrance to yards,Two of our planes dAmagneed by antiaircraft"],
-     "friendly_casualties": "None"
+   "location": "Etain",
+   "date": "1918-09-26",
+   "bombings": 2,
+   "enemy_action": ["Antiaircraft heavy and accurate SE of Etain. 6 Pfalz or Fokkers observed at 16:50 12,000 ft near Etain."],
+   "bomb_damage_assessment": ["Bursts seen in town of Etain", "Bursts observed on the railroad tracks on entrance to yards,Two of our planes dAmagneed by antiaircraft"],
+   "friendly_casualties": "None"
      }
  }, {
      "type": "Feature",
@@ -67,12 +67,12 @@
          "coordinates": [5.184436, 49.387969]
      },
      "properties": {
-     "location": "Dun-sur-Meuse",
-     "date": "1918-09-27",
-     "bombings": 1,
-     "enemy_action": [],
-     "bomb_damage_assessment": ["No bursts observed.  Seven teams attached to 96th Squadron.  Three reached obj.  All returned"],
-     "friendly_casualties": "None"
+   "location": "Dun-sur-Meuse",
+   "date": "1918-09-27",
+   "bombings": 1,
+   "enemy_action": [],
+   "bomb_damage_assessment": ["No bursts observed.  Seven teams attached to 96th Squadron.  Three reached obj.  All returned"],
+   "friendly_casualties": "None"
      }
  }, {
      "type": "Feature",
@@ -82,12 +82,12 @@
          "coordinates": [5.685626, 48.354415]
      },
      "properties": {
-     "location": "Mouzon",
-     "date": "1918-09-27",
-     "bombings": 4,
-     "enemy_action": ["Antiaircraft light and inaccurate.  6 Fokkers encountered near Etain at 18:10, 3200 ft."],
-     "bomb_damage_assessment": [],
-     "friendly_casualties": "None"
+   "location": "Mouzon",
+   "date": "1918-09-27",
+   "bombings": 4,
+   "enemy_action": ["Antiaircraft light and inaccurate.  6 Fokkers encountered near Etain at 18:10, 3200 ft."],
+   "bomb_damage_assessment": [],
+   "friendly_casualties": "None"
      }
  }, {
      "type": "Feature",
@@ -97,12 +97,12 @@
          "coordinates": [5.640218, 49.212586]
      },
      "properties": {
-     "location": "Etain",
-     "date": "1918-09-27",
-     "bombings": 4,
-     "enemy_action": ["6 Fokkers engaged near Etain at 18:00 to 18:15"],
-     "bomb_damage_assessment": ["Etain was bombed instead of Moussay owing to weather conditions.  The burst could not be seen on account of clouds"],
-     "friendly_casualties": "None"
+   "location": "Etain",
+   "date": "1918-09-27",
+   "bombings": 4,
+   "enemy_action": ["6 Fokkers engaged near Etain at 18:00 to 18:15"],
+   "bomb_damage_assessment": ["Etain was bombed instead of Moussay owing to weather conditions.  The burst could not be seen on account of clouds"],
+   "friendly_casualties": "None"
      }
  }, {
      "type": "Feature",
@@ -112,12 +112,12 @@
          "coordinates": [5.090705000000001, 49.355824]
      },
      "properties": {
-     "location": "Bantheville",
-     "date": "1918-09-28",
-     "bombings": 1,
-     "enemy_action": [],
-     "bomb_damage_assessment": ["4 teams of the 20th left the field , four teams reached the lines, but storm encountered and formation returned."],
-     "friendly_casualties": "None"
+   "location": "Bantheville",
+   "date": "1918-09-28",
+   "bombings": 1,
+   "enemy_action": [],
+   "bomb_damage_assessment": ["4 teams of the 20th left the field , four teams reached the lines, but storm encountered and formation returned."],
+   "friendly_casualties": "None"
      }
  }, {
      "type": "Feature",
@@ -127,11 +127,616 @@
          "coordinates": [4.92469, 49.320904]
      },
      "properties": {
-     "location": "Marcq (Grand Pre)",
-     "date": "1918-09-28",
-     "bombings": 1,
-     "enemy_action": ["Antiaircraft fairly accurate southwest of Remmange.  4 enemy planes were seen but not encountered south of Grand Pre, 4000 ft."],
-     "bomb_damage_assessment": ["Bursts were observed in the center of town of Marcq.   A fire was seen to break out in the town of Marcq"],
-     "friendly_casualties": "None"
+   "location": "Marcq (Grand Pre)",
+   "date": "1918-09-28",
+   "bombings": 1,
+   "enemy_action": ["Antiaircraft fairly accurate southwest of Remmange.  4 enemy planes were seen but not encountered south of Grand Pre, 4000 ft."],
+   "bomb_damage_assessment": ["Bursts were observed in the center of town of Marcq.   A fire was seen to break out in the town of Marcq"],
+   "friendly_casualties": "None"
+
      }
- }]}
+ }, {
+     "type": "Feature",
+     "id": 10,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [6.316667, 44.5]
+     },
+     "properties": {
+   "location": "Grand Pre",
+   "date": "1918-09-29",
+   "bombings": 6,
+   "enemy_action": ["Antiaircraft slight but accurate", "Anti aircraft was inactive and inaccurate"],
+   "bomb_damage_assessment": ["Bursts observed on dump and station at Grandpre.  9 teams from 11th , 9 teams from 20th.", "Four bursts cut tracks at station, 2 incendiary bombs on dumps south of town.  Fire in dumps and fire in town"],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 11,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.090705000000001, 49.355824]
+     },
+     "properties": {
+   "location": "Bantheville",
+   "date": "1918-10-01",
+   "bombings": 7,
+   "enemy_action": ["Antiaircraft wildly inaccurate", "Antiaircraft was light and inaccurate", "Antiaircraft was normal activity and fairly accurate"],
+   "bomb_damage_assessment": ["Bursts seen on station, yards, dump, and town.  Four flew with 96th Sq.", "Bursts observed on buildings and RR tracks in the center of the town of Bantheville.", "Bursts were seen in main part of town, also 7 bursts on tracks, 3 fires started"],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 12,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [4.949507, 49.300216]
+     },
+     "properties": {
+   "location": "Cornay",
+   "date": "1918-10-02",
+   "bombings": 4,
+   "enemy_action": ["7 enemy aircraft, probably Pfalz, encountered at 11:20, 4200m altitude near Cornay.  Black fuselage with black wings and tail.  One of the machines seemed to be using a small cannon.  One enemy aircraft fell about 300m in a spinning nose dive, but seemed"],
+   "bomb_damage_assessment": ["Unable to see bursts on account of cloud banks"],
+   "friendly_casualties": "One Breguet of our formation was seen to fire signal, indicating motor trouble, and last seeen going down in steep glide toward our lines, at appremont.  Plane#23 made a forced landing at Foucaucourt(?).  Observer Lt Walden shot through hand.  Also one bu"
+     }
+ }, {
+     "type": "Feature",
+     "id": 13,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [4.939148, 49.334456]
+     },
+     "properties": {
+   "location": "St. Juvin",
+   "date": "1918-10-02",
+   "bombings": 2,
+   "enemy_action": ["Antiaircraft slight and inaccurate. 6 enemy aircraft seen near Fleville at 11:15.", "Antiaircraft was light and inaccurate"],
+   "bomb_damage_assessment": ["Bursts seen in St Juvin.  One burst observed in village house hit.", "No bursts obsewrved, was very cloudy over objective"],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 14,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [6.316667, 44.5]
+     },
+     "properties": {
+   "location": "Grand Pre",
+   "date": "1918-10-03",
+   "bombings": 5,
+   "enemy_action": ["Anti aircraft was slight and inaccurate"],
+   "bomb_damage_assessment": ["In the center of town and also cut railroad tracks.  3 fires in town.  A bank of clouds covered Dun-sur-Meuse, therefore Grand Pre was bombed instead"],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 15,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.18414, 49.386071]
+     },
+     "properties": {
+   "location": "Dun-sur-Meuse",
+   "date": "1918-10-04",
+   "bombings": 4,
+   "enemy_action": ["Anti aircraft was active and accurate from Touange(?) to Dun-sur-Meuse.  15 Fokkers or Pfalz followed the formation  from the lines and attacked from Dun-sur-meuse to back of our lines west of Verdun 11:35 to 11:50"],
+   "bomb_damage_assessment": ["In the center of town, 2 fires and 3 explosions.  Remange(?) and Gesnes burning at 1130"],
+   "friendly_casualties": "One of our planes pilot Pearson and Obs. Pvt of the 11th Sq was seen to go down under control near the lines; but it is not known whether they landed on this side of the lines or not."
+     }
+ }, {
+     "type": "Feature",
+     "id": 16,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.010654, 49.353093]
+     },
+     "properties": {
+   "location": "Landres St George",
+   "date": "1918-10-04",
+   "bombings": 10,
+   "enemy_action": ["Antiaircraft accurate and numerous.  Attacked by 30 Pfalz scouts near Exermont at 16:30 and 2200m altitude.  One enemy aircraft seen to crash to ground.", "Encountered 30 Fokker of Pfalz, having dark grey fueselage, black and white bands with black and white stripes on rudder @1635.  During combat 2 enemy machines were seen to go down out of control.  One burst into flames in midair and the other fell in a s", "Antiaircraft - no activity.  One enemy aircraft seen around our balloons at 1350 near St. Juvin"],
+   "bomb_damage_assessment": ["Flew with 96th Sqdrn.  Bursts seen in town of Landres and road leading into town", "Fire in Marcq at 1610.  Bursts were observed in northern part of town, also 2 bombs cut the main highway north of town.", "The formation broke up before the lines due to clouds being too heavy and the pilot not being able to see the machine near them.", "Bombs hit southeastern part of town, causing one explosion and one fire"],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 17,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [4.939148, 49.334456]
+     },
+     "properties": {
+   "location": "St. Juvin",
+   "date": "1918-10-05",
+   "bombings": 1,
+   "enemy_action": ["6 Pfalz scouts sighted south of St Juvin at 13,000 ft."],
+   "bomb_damage_assessment": ["Bursts observed in St. Juvin and road leading into St Juvin"],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 18,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.121392, 49.36837]
+     },
+     "properties": {
+   "location": "Aincreville",
+   "date": "1918-10-05",
+   "bombings": 1,
+   "enemy_action": ["Antiaircraft was light and inaccurate.  Observer 2nd Lieut Hicks reports: Two bursts of luminous shells similar to tracer bullets and large, fired from ground at the southern edge Xxxx xx These balls of fire died out at the altitude of about 8,000 ft.   T"],
+   "bomb_damage_assessment": ["Road was cut southwest corner at Ainerville end.  Several bursts on southwest part of town, one fire broke out, one machine dropped two bombs on Doulcon, scoring a direct hit on the town."],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 19,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.090705000000001, 49.355824]
+     },
+     "properties": {
+   "location": "Bantheville",
+   "date": "1918-10-06",
+   "bombings": 4,
+   "enemy_action": ["Antiaircraft was active and fairly accurate near Canel, Bantheville, and Romange"],
+   "bomb_damage_assessment": ["Bursts seen in southeastern part of town, also on a dump, 2 small fires and 4 explosions."],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 20,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.166544999999999, 49.379946999999994]
+     },
+     "properties": {
+   "location": "Doulcon",
+   "date": "1918-10-06",
+   "bombings": 3,
+   "enemy_action": [],
+   "bomb_damage_assessment": ["Bursts observed on road south of Doulcon and south end of Dulcon.  One team bombed ainerville and started fire."],
+   "friendly_casualties": "11 teams left the field.  At altitude of 10,000 ft, a rain and sleet storm was encountered.  The formation descended to 5000 ft and being unable to get out of the storm returned to the field."
+     }
+ }, {
+     "type": "Feature",
+     "id": 21,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.090705000000001, 49.355824]
+     },
+     "properties": {
+   "location": "Bantheville/ St Juvin",
+   "date": "1918-10-09",
+   "bombings": 1,
+   "enemy_action": ["Antiaircraft was light and inaccurate"],
+   "bomb_damage_assessment": ["Bursts were observed on eastern and center of St Juvin"],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 22,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.2285129999999995, 49.410677]
+     },
+     "properties": {
+   "location": "Milly-devant-Dun (Lion-devant Dun)",
+   "date": "1918-10-10",
+   "bombings": 4,
+   "enemy_action": ["Antiaircraft was light and inaccurate.  Two Fokker EA seen in the region of Dun-sur-Meuse at 08:20, 11,000 ft, but did not get very close.", "Encountered 3 Pfalz scouts near Dun sur Meuse at 08:20, 12,000 ft.  One enemy aircraft was seen out of control last seen in side slipping nose dive. One confirmation requested"],
+   "bomb_damage_assessment": ["No bursts were observed on account of heavy cloud over the objective", "Bursts seen on narrow gauge railroad at Milley devant Dun and freight cars two bursts in town 08:15."],
+   "friendly_casualties": "None"
+   
+     }
+ }, {
+     "type": "Feature",
+     "id": 23,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.193127, 49.395298]
+     },
+     "properties": {
+   "location": "Dun-sur-Meuse",
+   "date": "1918-10-10",
+   "bombings": 4,
+   "enemy_action": ["Antiaircraft not very active and inaccurate"],
+   "bomb_damage_assessment": ["Bursts in north of town and cut road north of town"],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 24,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.110568, 49.395894]
+     },
+     "properties": {
+   "location": "Villers-devant-Dun",
+   "date": "1918-10-10",
+   "bombings": 8,
+   "enemy_action": ["Antiaircraft not very active and inaccurate.  5 or 6 Fokkers at 1225 near objective were driven away by our formation.", "Antiaircraft was light and inaccurate.  7 Fokkers encountered at 12:20 13,000 ft near Ainereville.  EA had red noses, black fuselages with light colored bellies.  Attacked aggressively from the rear.  The fight lasted about 15 minutes during which tim eht"],
+   "bomb_damage_assessment": ["Covered the town completely, baby incendiaries dropped short and exploded in field", "Bursts observed in the center of Villers, Direct hits were made on town.", "Bursts observed on Villers Devant Dun"],
+   "friendly_casualties": "2nd Lieut. Samuel C. XXXXX (O) received 2 wounds in the legs 2nd Lieut Christian received a tracer bullet wound in the leg. (Both men were observers).  1st Lt Petten (P) & 1st Lt Wilmer (O) were forced to land with steam coming from radiator headed into G"
+     }
+ }, {
+     "type": "Feature",
+     "id": 25,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.006367, 49.395882]
+     },
+     "properties": {
+   "location": "Bayonville",
+   "date": "1918-10-10",
+   "bombings": 1,
+   "enemy_action": ["Antiaircraft slight.  Phosphorous archie very active and accurate.  5 Fokker D.7 seen 15:55 at 14,000 ft just south of Bayonville.  Two enemy planes were seen to go down in flames with the Spads following them."],
+   "bomb_damage_assessment": ["Bursts observed directly in town of Bayonville"],
+   "friendly_casualties": "None"
+
+     }
+ }, {
+     "type": "Feature",
+     "id": 26,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.006367, 49.395882]
+     },
+     "properties": {
+   "location": "Bayonville",
+   "date": "1918-10-18",
+   "bombings": 6,
+   "enemy_action": ["Antiaircraft active and accurate.  10 enemy aircraft, apparently Pfalz seen between Grand Pre and Bouzancy.  3 encountered in one combat at 15:35.  Red noses, black bodies, and wings, white tail, white zig zag stripes on fuselage, engaged by our Spads.  2", "Antiaircraft was light and inaccurate"],
+   "bomb_damage_assessment": ["Bursts rather short in the town and over,3 planes not returned.  One had forced landing at Nouvilly.  One forced landingat Clermont and the third at Evres.", "Bombs were dropped on Northwest part of town; no bursts were observed, visibility poor."],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 27,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [4.955855000000001, 49.426347]
+     },
+     "properties": {
+   "location": "Buzancy",
+   "date": "1918-10-18",
+   "bombings": 2,
+   "enemy_action": ["Antiaircraft inaccurarte and not heavy.  Enemy Aircraft seemed to be waiting near the objective.  20 Pfalz and Fokkers encountered at Buzancy 15:25, 11,000 ft.  Blue top of upper wing and yellow body."],
+   "bomb_damage_assessment": ["None Observed; Visibility too poor to observe things on the ground"],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 28,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [4.955855000000001, 49.426347]
+     },
+     "properties": {
+   "location": "Buzancy",
+   "date": "1918-10-23",
+   "bombings": 2,
+   "enemy_action": ["Medium phosphorous archies.  6 enemy aircraft - 5 fokkers, 1 Albatross engaged at 10:00 south of Buzancy at 12,000 ft.  Fokkers: red nose, green body and white tail.  White wings, white tail; Albatross.  Black body."],
+   "bomb_damage_assessment": ["Bursts observed in sheds of railroad yards northwest of Buzancy"],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 29,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.011414, 49.427085]
+     },
+     "properties": {
+   "location": "Bois de la Folie",
+   "date": "1918-10-23",
+   "bombings": 8,
+   "enemy_action": ["Antiaircraft battery near Sivry-les-Busaney.  12 enemy aircraft seen 15:35-15:40, encountered seven, probably Pfalz in vicinity of Bousancy - Landres St Geourge at 3600m.  Blue bodies, red noses, white tails.", "Antiaircraft was light and inaccurate near the lines as the formation came out. 15 EA encountered 15:25 to 15:40 at 12,900 ft. near Bayonville.  Fokkers had black and white stripes on wings and fuselage, attacked very aggressively, some of them carried fo"],
+   "bomb_damage_assessment": ["Bursts observed along the road in the woods at objective,Lts Ten Eyck and Newell had a forced landing at Clermont and claim to have brought down 2 enemy planes.", "None were observed on account of combat.  Bombs were dropped on road between Thenergues and Sivery les Buzancy"],
+   "friendly_casualties": "2nd Lieut. J.H. Weimer (P) & 1st Lieut H/e/ Turner, Missing, believed to have gone down in flames, region of Bayonville at 3:30 pm Oct 23, 1918.  1st Lieut W.F. Frank (O) slightly wounded.  Capt O.G. Sellers(P) and 1st Lieut W.H. Bunkley (O) have not retu"
+     }
+ }, {
+     "type": "Feature",
+     "id": 30,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.059734, 49.404405]
+     },
+     "properties": {
+   "location": "Bois de Barricourt",
+   "date": "1918-10-23",
+   "bombings": 2,
+   "enemy_action": ["Antiaircraft light.  Capt Victor Parks Jr. and 2Lt L.A. Ward crashed on taking off and lost formation.  They took another plane but were unable to overtake the formation, so bombed Morganoulin, atitude 7000 ft.  1500 rounds fired, 2 enemy aircraft seen to", "Antiaircraft light.  Capt Victor Parks Jr. and 2Lt L.A. Ward crashed on taking off and lost formation.  They took another plane but were unable to overtake the formation, so bombed Morganoulin, atitude 7000 ft.  1500 rounds fired at 7 Fokker aircraft (9 s"],
+   "bomb_damage_assessment": ["None were observed"],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 31,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.5800247, 49.2335446]
+     },
+     "properties": {
+   "location": "Morgemoulin",
+   "date": "1918-10-23",
+   "bombings": 1,
+   "enemy_action": ["Antiaircraft light.  Capt Victor Parks Jr. and 2Lt L.A. Ward crashed on taking off and lost formation.  They took another plane but were unable to overtake the formation, so bombed Morganoulin, atitude 7000 ft.  1500 rounds fired, 2 enemy aircraft seen to"],
+   "bomb_damage_assessment": ["None were observed"],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 32,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [4.955855000000001, 49.426347]
+     },
+     "properties": {
+   "location": "Buzancy",
+   "date": "1918-10-26",
+   "bombings": 2,
+   "enemy_action": ["Antiaircraft was heavy but accurate in the region of Buzancy.  8 EA, probably Fokkers seen near Bayonville at 10:00 and 9,000 ft.  Red noses, black bodies, white tails."],
+   "bomb_damage_assessment": ["Bursts were observed at eastern edge of town on road and in aviation field."],
+   "friendly_casualties": "1st Lieut R.E. Townes(P) & 2nd Lieut S.T. Johnson(O) forced landing at Tent sur xxxxxx. 2nd Lieut Murphy (P) & 2nd Lt Fulton (O) forced landing at Touilly.  2nd Lieut. Keepfgen (P) 1st Lieut Willis Jr. (O) have not reported, but believed to have landed wi"
+     }
+ }, {
+     "type": "Feature",
+     "id": 33,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [4.8787400000000005, 49.40558]
+     },
+     "properties": {
+   "location": "Briquenay",
+   "date": "1918-10-27",
+   "bombings": 11,
+   "enemy_action": ["Antiaircraft active but inaccurate.  12 enemy aircraft seen and engaged , 7 fokkers, 5 Pfalz at 15:10, 11,000 ft.  Fokkers - red nose blue bodies.  Pfalz yellow nose and white tail.  1 enemy aircraft seen to have gone out of control.", "Antiaircraft very active and accurate.  Enemy aircraft very active and persistent;  10 Fokkers seen, 6 encountered at 16:36-16:37 at 4000m near Briquenay - some had light blue bodies with light pink and grey stripes, others had yellow noses and yellow on ", "Antiaircraft was light and inaccurate.  One EA seen, unknown biplane scout  in the region of Buzancy at 15:15 11,000 ft..  Airplane scout with black and white stripes on fuselage; He tried to get under the tail of the formation, but did not succeed.  The ", "Antiaircraft was inaccurate and light"],
+   "bomb_damage_assessment": ["Bursts observed on edge of town", "5 bursts near center of Bricuenay; Fires in center of Bricuenay."],
+   "friendly_casualties": "Lts Ten Eyck and Newell had forced landing at Clermont.  Lt Ten Eyck slightly woundedin forehead.  Lts Elliot and Pancoast had forced landing at Froioes near Souilly.  Lt Pancoast shot through lung and stomach.  Lt Shilling-reese had forced landing at Was"
+     }
+ }, {
+     "type": "Feature",
+     "id": 34,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [6.151673000000001, 49.094353000000005]
+     },
+     "properties": {
+   "location": "Montigny",
+   "date": "1918-10-29",
+   "bombings": 2,
+   "enemy_action": ["Antiaircraft slight but fairly accurate; battery observed at south end of Tailly.  6 Enemy aircraft seen at 09:30 south of Bricuenay."],
+   "bomb_damage_assessment": ["Bursts observed at western edge of yards and ammuntion dump."],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 35,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.401111, 49.34366]
+     },
+     "properties": {
+   "location": "Damvillers",
+   "date": "1918-10-29",
+   "bombings": 9,
+   "enemy_action": ["Antiaircraft Artillery was plentiful but inaccurate.  Three Enemy Fokkers seen at 12,000ft, 15:20 near Danvillers.  The Fokkers had Red nose, Blue wings and white tail.  They were engaged by the Spads.", "Antiaircraft very active and very accurate.  Enemy aircraft very active and persistent.  30 enemy aircraft seen(Fokker) , 10-15 encountered 1515-1530 at 3000-4000 ft altitude from line to damvillers and back to lines - 1 confirmation requested.", "Antiaircraft was heavy and accurate", "Antiaircraft was heavy but inaccurate"],
+   "bomb_damage_assessment": ["Bursts observed West to Northeast running through center of town 15:15", "The heavy bomb fell short of objective and some of the incendiaries fell in northern part of town", "Bursts and fire observed in southern part of Damvillers"],
+   "friendly_casualties": "1 plane missing - believed to go down in the region of Verdun under control with apparent motor trouble.  Plane was #10, Lts Stanley and Folger (both wounded). 1st Lieut. Weaver(P) & 1st Lt Stokes (O) have not returned from the raid, but were seen to land in the Allied lines."
+     }
+ }, {
+     "type": "Feature",
+     "id": 36,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.050705000000001, 49.440019]
+     },
+     "properties": {
+   "location": "Nouart",
+   "date": "1918-10-30",
+   "bombings": 2,
+   "enemy_action": ["Antiaircraft was light and inaccurate in our formation but heavy and accurate on a formation of 5 planes, probably the 11th Aero Squadron in the region of Buzancy and Bayonville.  3 biplane machines were seen going southwest  at Briaulies(?) to Hatillois("],
+   "bomb_damage_assessment": ["3 Bursts were observed N.E, part of Nouart, others on field and road.XX bursts were seen on the town of Barricourt."],
+   "friendly_casualties": ""
+     }
+ }, {
+     "type": "Feature",
+     "id": 37,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.059734, 49.404405]
+     },
+     "properties": {
+   "location": "Bois de Barricourt",
+   "date": "1918-10-30",
+   "bombings": 2,
+   "enemy_action": ["Antiaircraft was plentiful but inaccurate.  One enemy Fokker seen at 10:50, 13,000 ft north of Buzancy; Red nose, Blue body, and white tail."],
+   "bomb_damage_assessment": ["Bursts observed at Bois de Barricourt and south east and edge of town. 10:50 Eight bombs dropped.  Four bombs dropped Four (4) bombs were dropped on Bassey sur Meuse on north edge of town 10:58"],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 38,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.006367, 49.395882]
+     },
+     "properties": {
+   "location": "Bayonville",
+   "date": "1918-10-30",
+   "bombings": 1,
+   "enemy_action": ["Antiaircraft was not very heavy, Battery observed north edge of le Morthomre (?) on the west side of road running N& S"],
+   "bomb_damage_assessment": ["3 bursts were seen in northern part of Bayonville"],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 39,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [6.101083, 48.819018]
+     },
+     "properties": {
+   "location": "Belleville",
+   "date": "1918-10-30",
+   "bombings": 6,
+   "enemy_action": ["Antiaircraft was light and inaccurate in the region of the objective.  18 enemy aircraft encountered, Fokkers and Sieman Schukarts from 15:25 to 15:35 at 13,500 ft near Belleville.  Fokkers were black with white tails, Sieman Schukarts were striped black ", "Antiaircraft active and fairly accurate.  Eight Fokkers, Albatross and Seiman-Schart encountered at 15:30, 12,000 ft near Belleville.  Fokkers white and black stripes on wings, Fuselage.  Albatross yellow belly. Sieman Suchart, white.", "Antiaircraft not heavy, but accurate 16 enemy aircraft seen north of Belleville at 15000 ft altitude"],
+   "bomb_damage_assessment": ["6 bursts were observed on the center of the town and 4 in the woods west of the town.", "Bursts observed on edge of town west to east of Belleville 15:30.", "12 bursts in center and southern part of Belleville"],
+   "friendly_casualties": "1st Lieut Mandell (P) & 1st Lieut Fluke (O) have not returned to the field but are known to have landed within our lines.  2nd Lieut. Tucker (P) & 1st Lieut Faulk(O) have not returned  to the field but are known to have landed within our lines.  1st Lieut"
+     }
+ }, {
+     "type": "Feature",
+     "id": 40,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.0823540000000005, 49.435654]
+     },
+     "properties": {
+   "location": "Tailly",
+   "date": "1918-10-31",
+   "bombings": 4,
+   "enemy_action": ["Antiaircraft active and fairly accurate.  Enemy aircraft - 8 Fokker or Albatross seen in vicinity of objective at 0852 with checkerboard markings."],
+   "bomb_damage_assessment": ["Fell short in road and woods southeast of town"],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 41,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.0524569999999995, 49.427305]
+     },
+     "properties": {
+   "location": "Barricourt",
+   "date": "1918-10-31",
+   "bombings": 2,
+   "enemy_action": ["Light antiaircraft.  13 Fokkers seen, 10 engaged at 08:49, 10,000 ft.  One confirmation requested.  Fokkers had red nose, blue body and white tail"],
+   "bomb_damage_assessment": ["Cut road between Barricourt and Menuart(?) and southern end of town Barricourt."],
+   "friendly_casualties": "1 flew with 166th, see 166 sqdn report"
+     }
+ }, {
+     "type": "Feature",
+     "id": 42,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.0823540000000005, 49.435654]
+     },
+     "properties": {
+   "location": "Tailly",
+   "date": "1918-10-31",
+   "bombings": 3,
+   "enemy_action": ["Antiaircraft slight and fairly accurate.  8 Fokker D. 5 encountered near Tailly at 11,000 ft, 09:00.  Blue wings, black cross with white facing, underside of tail plane and lower wing grey.", "Antiaircraft was light and inaccurate.  4 enemy aircraft were seen, but too far away to recognize"],
+   "bomb_damage_assessment": ["6 bursts observed center and northern part of Tailly.", "4 bursts in center of town, 2 on edge of Tailly and 2 on N.E. part of town.  2 bombs were dropped on Barricourt by one plane but no bursts were observed."],
+   "friendly_casualties": "None"
+   
+     }
+ }, {
+     "type": "Feature",
+     "id": 43,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.187554, 49.491826]
+     },
+     "properties": {
+   "location": "Stenay",
+   "date": "1918-11-03",
+   "bombings": 7,
+   "enemy_action": ["2 Enemy aircraft encountered at 0935.  Antiaircraft fairly active and inaccurate", "Antiaircraft light and inaccurate.  One enemy albatross seen at 10,000 ft 09:30 south of Stenay."],
+   "bomb_damage_assessment": ["Could not see bursts on account of clouds"],
+   "friendly_casualties": "3 planes missing - #3 seen going down towards Clermont, one other seen going down towards Montfaucon. #1 unknown.  None have been heard from although they were apparently going down and landing in control"
+     }
+ }, {
+     "type": "Feature",
+     "id": 44,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.945849, 48.84697]
+     },
+     "properties": {
+   "location": "Martincourt",
+   "date": "1918-11-03",
+   "bombings": 2,
+   "enemy_action": ["Antiaircraft plentiful and accurate.  Very accurate battery between road and canal from Saulmory to Villerafranche.  Four unidentified enemy aircraft observed at 09:26 north of Martincourt"],
+   "bomb_damage_assessment": ["Bursts observed at Martincourt.  South end of town on red roofed warehouses bursts between south to north 09:25"],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 45,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.787907, 48.851977000000005]
+     },
+     "properties": {
+   "location": "Beaumont",
+   "date": "1918-11-03",
+   "bombings": 11,
+   "enemy_action": ["Lights, a flaming ball was fired at the formation; it rose to an altitude of 11,000 feeet and then dropped back  without breaking.  15:06 Eight Fokkers, markings yellow and black striopes on fuselage engaged at 15:10 11,000 ft south of Beaumont.  Two conf", "Antiaircraft was light and inaccurate in the region of Beaumont.  One battery accurate N.W. of Louppy in Foret de (X)oevre, One battery accurate South of xxenxxxes.  7 enemy airplanes of the Fokker type attacked our formation after bombing south of the ob", "Antiaircraft active but inaccurate.  3 Fokkers seen at 15:15", "Antiaircraft light and inaccurate"],
+   "bomb_damage_assessment": ["Bursts observed all over objective and several fires were started.  Time 15:10", "8 Bursts observed in eastern part of town", "Good hits in south central part of town.  1 or 2 fires seen after bombing.", "Bursts observed in northern half of Beaumont."],
+   "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 46,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.368347, 49.520956]
+     },
+     "properties": {
+   "location": "Montmedy",
+   "date": "1918-11-04",
+   "bombings": 5,
+   "enemy_action": ["Antiaircraft was light and accurate over Objective.Enemy Aircraft encountered at 12,500 ft, 15:40 South of Montmedy.  18 Fokkers seen, red nose, white body, black tail. Two patrols of 6 planes each, 1 patrol attacked below, 1 patrol of 6 attacked from the", "Antiaircraft fire heavy and quite accurate.  8Ffokkers encountered, Fokker biplanes and 1 triplane at 12,000 ft 15:13 near Vigneul.  3 enemy planes seen to have gone down in flames, 3 confirmations requested.  Planes had a black and white fuselage, wings ", "Antiaircraft was heavy and very accurate.  Eighteen Fokkers, Pfalz and Albatross engaged 15:30 10,500 ft h of Montmedy.  Fokkers: red nose, black and white fuselage and white tail.  Pfalz black body and silver tail.  Albatross gray camflogue red wing tips"],
+   "bomb_damage_assessment": ["Bursts were observed all over town,  bursts were seen out to the railroad, town was set afire.   Warehouses in S.W. part of town in flames.", "Bursts seen throughout R.R. yards and SE part of Montmedy.", "Bursts observed in southern end of town; two fires started in railroad yards."],
+   "friendly_casualties": "2nd Lieut. David R. Dargo (P) & 1st Lieut. Charles Knox had forced landing at Gondrecourt, will return as soon as machine is repaired.  2nd Lieut. F.G. Tucker (P) & 1st Lieut. C.O. Faulk have not reported, were last seen over Soilly on return from raid. 1 Allied plane seen to have gone down in flames"
+     }
+ }, {
+     "type": "Feature",
+     "id": 47,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.309646, 49.51905]
+     },
+     "properties": {
+   "location": "Chauvency-le-Chateau",
+   "date": "1918-11-04",
+   "bombings": 5,
+   "enemy_action": ["Antiaircraft slight and inaccurate.  15 Fokkers seen and encountered 15:37-15:39 at 3600m near objective.  One enemy plane seen to have gone down in flames and one seen to have gone down out of control.  2 confirmations requested.  Some had red noses, dar"],
+   "bomb_damage_assessment": ["Hits seen in southwestern part of town.  3 fires seen in town after bombing.  1st Lts Turnbull and Lindsay had to drop out after crossing lines and nearing objective so bombed Murvaux(49.391097, 5.244224) and bombs out road southwest of town."],
+   "friendly_casualties": "1st Lt H/ J. Spalding was slightly wounded by machine gun fire in both hands.  Missing 1st Lt Elliott-2nd Lt. Bleecker, 2nd Lt. P.E. Lakin - 1st Lt. M.W. Oyster.  The above men and planes are believed to have landed on this side of the lines apparently in"
+     }
+ }, {
+     "type": "Feature",
+     "id": 48,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [6.218635, 48.92585]
+     },
+     "properties": {
+   "location": "Raucourt",
+   "date": "1918-11-05",
+   "bombings": 2,
+   "enemy_action": ["Antiaircraft fire was light and inaccurate.  5 enemy aircraft sighted at 09:20 near Youco, none engaged."],
+   "bomb_damage_assessment": [],
+   "friendly_casualties": ""
+     }
+ }, {
+     "type": "Feature",
+     "id": 49,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.685626, 48.354415]
+     },
+     "properties": {
+   "location": "Mouzon",
+   "date": "1918-11-05",
+   "bombings": 2,
+   "enemy_action": ["Antiaircraft was light and inaccurate in the region of objective.  3 formations of 6 planes each, Fokkers and Sieman-Schukart from 09:25 to 09:48 at 12,500 ft  IVO Mouson to Stenay to Dun sur Meuse, most of them Fokkers painted blue, coming up from the di"],
+   "bomb_damage_assessment": ["Bursts observed; railroad tracks were cut in the Yards, one fire was observed in the yards.  One explosion was caused southeast part of Mouson(?) in warehouses."],
+   "friendly_casualties": "One of our planes was forced down with smoke coming out his engine.  An enemy Fokker followed him down firing continuously. Causing our plane to burst into flames.  Our observers brought this Fokker down and saw him crash.  1st Lieut Mendell (P) & 2nd Lie"
+     }
+ }]
+}

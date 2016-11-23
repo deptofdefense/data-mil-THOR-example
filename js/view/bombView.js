@@ -27,7 +27,7 @@ muarg.Views = muarg.Views || {};
                 weight: 1,
                 fillOpacity: 0.6
             })
-            console.log(this.marker)
+            // console.log(this.marker)
             this.marker.addTo(_this.parent.map);
         },
 

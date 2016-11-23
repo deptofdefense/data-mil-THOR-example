@@ -40,6 +40,7 @@ muarg.Views = muarg.Views || {};
                             + "<p>"+v.get('properties_bomb_damage_assessment_0')+"</p>"
                             + "<h3>Friendly Casualties</h3>"
                             + "<p>"+v.get('properties_friendly_casualties')+"</p>"
+                            + "<hr>"
 
                 })
                 return report 
