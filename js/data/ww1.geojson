@@ -1,642 +1,137 @@
 {"type": "FeatureCollection",
- "features": [
-     { "type": "Feature",
-       "id": 1,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.593539, 49.443539]
-       },
-       "properties": {"id": 1,
-		      "location": "Longuyon",
-		      "lat": 49.443539,
-		      "lon": 5.593539,
-		      "1918-09-18": 4
-		     }
+ "features": [{
+     "type": "Feature",
+     "id": 1,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.593539, 49.443539]
      },
-     { "type": "Feature",
-       "id": 2,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.184436, 49.387969]
-       },
-       "properties": {"id": 2,
-		      "location": "Dun-sur-Meuse",
-		      "lat": 49.387969,
-		      "lon": 5.184436,
-		      "1918-09-26": 6
-		     }
+     "properties": {
+     "location": "Longuyon",
+     "date": "1918-09-18",
+     "bombings": 4,
+     "enemy_action": ["Anti aircraft was very accurate and active north of Verdun."],
+     "bomb_damage_assessment": ["4 bursts observed in town, remainder west of town.  Better results could not be obtained because the flight leader's machine was forced to turn back just as the formation was approaching the objective."],
+     "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 2,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.184436, 49.387969]
      },
-     { "type": "Feature",
-       "id": 3,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.185866000000001, 49.383321]
-       },
-       "properties": {"id": 3,
-		      "location": "Dun-sur-Meuse",
-		      "lat": 49.383321,
-		      "lon": 5.185866000000001,
-		      "1918-09-26": 1
-		     }
+     "properties": {
+     "location": "Dun-sur-Meuse",
+     "date": "1918-09-26",
+     "bombings": 6,
+     "enemy_action":["Antiaircraft very slight and accurate.  6 Pfalz or Fokkers encountered at 10:15, 14,000 ftnear Dun sur Meuse.  Planes were black with white band on fuselage, were seen to  attack 96th Aero Squadron & when 20th Aero Squadron formation came up, they drew of", "Antiaircraft was slight and inaccurate.  6 enemy aircraft attacked from Dun-sur-Meuse to lines.  Very aggressive.  Type Fokker, at 10:35 13,500 ft.  Two enemy planes seen to have crashed to ground, one enemy plane seen to have gone down out of control.", "Anti aircraft very active and inaccurate.  Two enemy machines shot down out of control.  Not able to identify machines or markings.  10 enemy aircraft encountered at 10:10"],
+     "bomb_damage_assessment":["All bombs dropped on Dun sur Meuse, on town and a fire was started", "No bursts observed.  1 aircraft with 20th Sqdn formation", "Ammunition dumps burning north of town.  In center of town, one large fire observed in town"],
+     "friendly_casualties": "Observer, 2nd Lt P.J. O'Donnell killed in combat"
+     }
+ }, {
+     "type": "Feature",
+     "id": 3,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.185866000000001, 49.383321]
      },
-     { "type": "Feature",
-       "id": 4,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.640218, 49.212586]
-       },
-       "properties": {"id": 4,
-		      "location": "Etain",
-		      "lat": 49.212586,
-		      "lon": 5.640218,
-		      "1918-09-26": 2
-		     }
+     "properties": {
+     "location": "Dun-sur-Meuse",
+     "date": "1918-09-26",
+     "bombings": 1,
+     "enemy_action": ["Antiaircraft very slight and accurate.  6 Pfalz or Fokkers encountered at 10:15, 14,000 ftnear Dun sur Meuse.  Planes were black with white band on fuselage, were seen to  attack 96th Aero Squadron & when 20th Aero Squadron formation came up, they drew of"],
+     "bomb_damage_assessment": ["All bombs dropped on Dun sur Meuse, on town and a fire was started"],
+     "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 4,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.640218, 49.212586]
      },
-     { "type": "Feature",
-       "id": 5,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.184436, 49.387969]
-       },
-       "properties": {"id": 5,
-		      "location": "Dun-sur-Meuse",
-		      "lat": 49.38796949,
-		      "lon": 5.184436,
-		      "1918-09-27": 1
-		     }
+     "properties": {
+     "location": "Etain",
+     "date": "1918-09-26",
+     "bombings": 2,
+     "enemy_action": ["Antiaircraft heavy and accurate SE of Etain. 6 Pfalz or Fokkers observed at 16:50 12,000 ft near Etain."],
+     "bomb_damage_assessment": ["Bursts seen in town of Etain", "Bursts observed on the railroad tracks on entrance to yards,Two of our planes dAmagneed by antiaircraft"],
+     "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 5,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.184436, 49.387969]
      },
-     { "type": "Feature",
-       "id": 6,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.685626, 48.354415]
-       },
-       "properties": {"id": 6,
-		      "location": "Mouzon",
-		      "lat": 48.354415,
-		      "lon": 5.685626,
-		      "1918-09-27": 4
-		     }
+     "properties": {
+     "location": "Dun-sur-Meuse",
+     "date": "1918-09-27",
+     "bombings": 1,
+     "enemy_action": [],
+     "bomb_damage_assessment": ["No bursts observed.  Seven teams attached to 96th Squadron.  Three reached obj.  All returned"],
+     "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 6,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.685626, 48.354415]
      },
-     { "type": "Feature",
-       "id": 7,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.640218, 49.212586]
-       },
-       "properties": {"id": 7,
-		      "location": "Etain",
-		      "lat": 49.212586,
-		      "lon": 5.640218,
-		      "1918-09-27": 4
-		     }
+     "properties": {
+     "location": "Mouzon",
+     "date": "1918-09-27",
+     "bombings": 4,
+     "enemy_action": ["Antiaircraft light and inaccurate.  6 Fokkers encountered near Etain at 18:10, 3200 ft."],
+     "bomb_damage_assessment": [],
+     "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 7,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.640218, 49.212586]
      },
-     { "type": "Feature",
-       "id": 8,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.090705000000001, 49.355824]
-       },
-       "properties": {"id": 8,
-		      "location": "Bantheville",
-		      "lat": 49.355824,
-		      "lon": 5.090705000000001,
-		      "1918-09-28": 1
-		     }
+     "properties": {
+     "location": "Etain",
+     "date": "1918-09-27",
+     "bombings": 4,
+     "enemy_action": ["6 Fokkers engaged near Etain at 18:00 to 18:15"],
+     "bomb_damage_assessment": ["Etain was bombed instead of Moussay owing to weather conditions.  The burst could not be seen on account of clouds"],
+     "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 8,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [5.090705000000001, 49.355824]
      },
-     { "type": "Feature",
-       "id": 9,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [4.92469, 49.320904]
-       },
-       "properties": {"id": 9,
-		      "location": "Marcq (Grand Pre)",
-		      "lat": 49.320904,
-		      "lon": 4.92469,
-		      "1918-09-28": 1
-		     }
+     "properties": {
+     "location": "Bantheville",
+     "date": "1918-09-28",
+     "bombings": 1,
+     "enemy_action": [],
+     "bomb_damage_assessment": ["4 teams of the 20th left the field , four teams reached the lines, but storm encountered and formation returned."],
+     "friendly_casualties": "None"
+     }
+ }, {
+     "type": "Feature",
+     "id": 9,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [4.92469, 49.320904]
      },
-     { "type": "Feature",
-       "id": 10,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [6.316667, 44.5]
-       },
-       "properties": {"id": 10,
-		      "location": "Grand Pre",
-		      "lat": 44.5,
-		      "lon": 6.316667,
-		      "1918-09-29": 6
-		     }
-     },
-     { "type": "Feature",
-       "id": 11,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.090705000000001, 49.355824]
-       },
-       "properties": {"id": 11,
-		      "location": "Bantheville",
-		      "lat": 49.355824,
-		      "lon": 5.090705000000001,
-		      "1918-10-01": 7
-		     }
-     },
-     { "type": "Feature",
-       "id": 12,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [4.949507, 49.300216]
-       },
-       "properties": {"id": 12,
-		      "location": "Cornay",
-		      "lat": 49.300216,
-		      "lon": 4.949507,
-		      "1918-10-02": 4
-		     }
-     },
-     { "type": "Feature",
-       "id": 13,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [4.939148, 49.334456]
-       },
-       "properties": {"id": 13,
-		      "location": "St. Juvin",
-		      "lat": 49.334456,
-		      "lon": 4.939148,
-		      "1918-10-02": 2
-		     }
-     },
-     { "type": "Feature",
-       "id": 14,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [6.316667, 44.5]
-       },
-       "properties": {"id": 14,
-		      "location": "Grand Pre",
-		      "lat": 44.5,
-		      "lon": 6.316667,
-		      "1918-10-03": 5
-		     }
-     },
-     { "type": "Feature",
-       "id": 15,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.18414, 49.386071]
-       },
-       "properties": {"id": 15,
-		      "location": "Dun-sur-Meuse",
-		      "lat": 49.386071,
-		      "lon": 5.18414,
-		      "1918-10-04": 4
-		     }
-     },
-     { "type": "Feature",
-       "id": 16,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.010654, 49.353093]
-       },
-       "properties": {"id": 16,
-		      "location": "Landres St George",
-		      "lat": 49.353093,
-		      "lon": 5.010654,
-		      "1918-10-04": 10
-		     }
-     },
-     { "type": "Feature",
-       "id": 17,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [4.939148, 49.334456]
-       },
-       "properties": {"id": 17,
-		      "location": "St. Juvin",
-		      "lat": 49.334456,
-		      "lon": 4.939148,
-		      "1918-10-05": 1
-		     }
-     },
-     { "type": "Feature",
-       "id": 18,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.121392, 49.36837]
-       },
-       "properties": {"id": 18,
-		      "location": "Aincreville",
-		      "lat": 49.36837,
-		      "lon": 5.121392,
-		      "1918-10-05": 1
-		     }
-     },
-     { "type": "Feature",
-       "id": 19,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.090705000000001, 49.355824]
-       },
-       "properties": {"id": 19,
-		      "location": "Bantheville",
-		      "lat": 49.355824,
-		      "lon": 5.090705000000001,
-		      "1918-10-06": 4
-		     }
-     },
-     { "type": "Feature",
-       "id": 20,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.166544999999999, 49.379946999999994]
-       },
-       "properties": {"id": 20,
-		      "location": "Doulcon",
-		      "lat": 49.379946999999994,
-		      "lon": 5.166544999999999,
-		      "1918-10-06": 3
-		     }
-     },
-     { "type": "Feature",
-       "id": 21,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.090705000000001, 49.355824]
-       },
-       "properties": {"id": 21,
-		      "location": "Bantheville/ St Juvin",
-		      "lat": 49.355824,
-		      "lon": 5.090705000000001,
-		      "1918-10-09": 1
-		     }
-     },
-     { "type": "Feature",
-       "id": 22,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.2285129999999995, 49.410677]
-       },
-       "properties": {"id": 22,
-		      "location": "Milly-devant-Dun (Lion-devant Dun)",
-		      "lat": 49.410677,
-		      "lon": 5.2285129999999995,
-		      "1918-10-10": 4
-		     }
-     },
-     { "type": "Feature",
-       "id": 23,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.193127, 49.395298]
-       },
-       "properties": {"id": 23,
-		      "location": "Dun-sur-Meuse",
-		      "lat": 49.395298,
-		      "lon": 5.193127,
-		      "1918-10-10": 4
-		     }
-     },
-     { "type": "Feature",
-       "id": 24,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.110568, 49.395894]
-       },
-       "properties": {"id": 24,
-		      "location": "Villers-devant-Dun",
-		      "lat": 49.395894,
-		      "lon": 5.110568,
-		      "1918-10-10": 8
-		     }
-     },
-     { "type": "Feature",
-       "id": 25,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.006367, 49.395882]
-       },
-       "properties": {"id": 25,
-		      "location": "Bayonville",
-		      "lat": 49.395882,
-		      "lon": 5.006367,
-		      "1918-10-10": 1
-		     }
-     },
-     { "type": "Feature",
-       "id": 26,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.006367, 49.395882]
-       },
-       "properties": {"id": 26,
-		      "location": "Bayonville",
-		      "lat": 49.395882,
-		      "lon": 5.006367,
-		      "1918-10-18": 6
-		     }
-     },
-     { "type": "Feature",
-       "id": 27,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [4.955855000000001, 49.426347]
-       },
-       "properties": {"id": 27,
-		      "location": "Buzancy",
-		      "lat": 49.426347,
-		      "lon": 4.955855000000001,
-		      "1918-10-18": 2
-		     }
-     },
-     { "type": "Feature",
-       "id": 28,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [4.955855000000001, 49.426347]
-       },
-       "properties": {"id": 28,
-		      "location": "Buzancy",
-		      "lat": 49.426347,
-		      "lon": 4.955855000000001,
-		      "1918-10-23": 2
-		     }
-     },
-     { "type": "Feature",
-       "id": 29,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.011414, 49.427085]
-       },
-       "properties": {"id": 29,
-		      "location": "Bois de la Folie",
-		      "lat": 49.427085,
-		      "lon": 5.011414,
-		      "1918-10-23": 8
-		     }
-     },
-     { "type": "Feature",
-       "id": 30,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.059734, 49.404405]
-       },
-       "properties": {"id": 30,
-		      "location": "Bois de Barricourt",
-		      "lat": 49.404405,
-		      "lon": 5.059734,
-		      "1918-10-23": 2
-		     }
-     },
-     { "type": "Feature",
-       "id": 31,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.5800247, 49.2335446]
-       },
-       "properties": {"id": 31,
-		      "location": "Morgemoulin",
-		      "lat": 49.2335446,
-		      "lon": 5.5800247,
-		      "1918-10-23": 1
-		     }
-     },
-     { "type": "Feature",
-       "id": 32,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [4.955855000000001, 49.426347]
-       },
-       "properties": {"id": 32,
-		      "location": "Morgemoulin",
-		      "lat": 49.426347,
-		      "lon": 4.955855000000001,
-		      "1918-10-26": 2
-		     }
-     },
-     { "type": "Feature",
-       "id": 33,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [4.8787400000000005, 49.40558]
-       },
-       "properties": {"id": 33,
-		      "location": "Briquenay",
-		      "lat": 49.40558,
-		      "lon": 4.8787400000000005,
-		      "1918-10-27": 11
-		     }
-     },
-     { "type": "Feature",
-       "id": 34,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [6.151673000000001, 49.094353000000005]
-       },
-       "properties": {"id": 34,
-		      "location": "Montigny",
-		      "lat": 49.094353000000005,
-		      "lon": 6.151673000000001,
-		      "1918-10-29": 2
-		     }
-     },
-     { "type": "Feature",
-       "id": 35,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.401111, 49.34366]
-       },
-       "properties": {"id": 35,
-		      "location": "Damvillers",
-		      "lat": 49.34366,
-		      "lon": 5.401111,
-		      "1918-10-29": 9
-		     }
-     },
-     { "type": "Feature",
-       "id": 36,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.050705000000001, 49.440019]
-       },
-       "properties": {"id": 36,
-		      "location": "Nouart",
-		      "lat": 49.440019,
-		      "lon": 5.050705000000001,
-		      "1918-10-30": 2
-		     }
-     },
-     { "type": "Feature",
-       "id": 37,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.059734, 49.404405]
-       },
-       "properties": {"id": 37,
-		      "location": "Bois de Barricourt",
-		      "lat": 49.404405,
-		      "lon": 5.059734,
-		      "1918-10-30": 2
-		     }
-     },
-     { "type": "Feature",
-       "id": 38,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.006367, 49.395882]
-       },
-       "properties": {"id": 38,
-		      "location": "Bayonville",
-		      "lat": 49.395882,
-		      "lon": 5.006367,
-		      "1918-10-30": 1
-		     }
-     },
-     { "type": "Feature",
-       "id": 39,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [6.101083, 48.819018]
-       },
-       "properties": {"id": 39,
-		      "location": "Belleville",
-		      "lat": 48.819018,
-		      "lon": 6.101083,
-		      "1918-10-30": 6
-		     }
-     },
-     { "type": "Feature",
-       "id": 40,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.0823540000000005, 49.435654]
-       },
-       "properties": {"id": 40,
-		      "location": "Tailly",
-		      "lat": 49.435654,
-		      "lon": 5.0823540000000005,
-		      "1918-10-31": 4
-		     }
-     },
-     { "type": "Feature",
-       "id": 41,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.0524569999999995, 49.427305]
-       },
-       "properties": {"id": 41,
-		      "location": "Barricourt",
-		      "lat": 49.427305,
-		      "lon": 5.0524569999999995,
-		      "1918-10-31": 2
-		     }
-     },
-     { "type": "Feature",
-       "id": 42,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.0823540000000005, 49.435654]
-       },
-       "properties": {"id": 42,
-		      "location": "Tailly",
-		      "lat": 49.435654,
-		      "lon": 5.0823540000000005,
-		      "1918-10-31": 3
-		     }
-     },
-     { "type": "Feature",
-       "id": 43,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.187554, 49.491826]
-       },
-       "properties": {"id": 43,
-		      "location": "Stenay",
-		      "lat": 49.491826,
-		      "lon": 5.187554,
-		      "1918-11-03": 7
-		     }
-     },
-     { "type": "Feature",
-       "id": 44,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.945849, 48.84697]
-       },
-       "properties": {"id": 44,
-		      "location": "Martincourt",
-		      "lat": 48.84697,
-		      "lon": 5.945849,
-		      "1918-11-03": 2
-		     }
-     },
-     { "type": "Feature",
-       "id": 45,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.787907, 48.851977000000005]
-       },
-       "properties": {"id": 45,
-		      "location": "Beaumont",
-		      "lat": 48.851977000000005,
-		      "lon": 5.787907,
-		      "1918-11-03": 11
-		     }
-     },
-     { "type": "Feature",
-       "id": 46,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.368347, 49.520956]
-       },
-       "properties": {"id": 46,
-		      "location": "Montmedy",
-		      "lat": 49.520956,
-		      "lon": 5.368347,
-		      "1918-11-04": 5
-		     }
-     },
-     { "type": "Feature",
-       "id": 47,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.309646, 49.51905]
-       },
-       "properties": {"id": 47,
-		      "location": "Chauvency-le-Chateau",
-		      "lat": 49.51905,
-		      "lon": 5.309646,
-		      "1918-11-04": 5
-		     }
-     },
-     { "type": "Feature",
-       "id": 48,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [6.218635, 48.92585]
-       },
-       "properties": {"id": 48,
-		      "location": "Raucourt",
-		      "lat": 48.92585,
-		      "lon": 6.218635,
-		      "1918-11-05": 2
-		     }
-     },
-     { "type": "Feature",
-       "id": 49,
-       "geometry": {
-           "type": "Point",
-           "coordinates": [5.685626, 48.354415]
-       },
-       "properties": {"id": 48,
-		      "location": "Mouzon",
-		      "lat": 48.354415,
-		      "lon": 5.685626,
-		      "1918-11-05": 2
-		     }
-     }     
- ]
-}
-
+     "properties": {
+     "location": "Marcq (Grand Pre)",
+     "date": "1918-09-28",
+     "bombings": 1,
+     "enemy_action": ["Antiaircraft fairly accurate southwest of Remmange.  4 enemy planes were seen but not encountered south of Grand Pre, 4000 ft."],
+     "bomb_damage_assessment": ["Bursts were observed in the center of town of Marcq.   A fire was seen to break out in the town of Marcq"],
+     "friendly_casualties": "None"
+     }
+ }]}
