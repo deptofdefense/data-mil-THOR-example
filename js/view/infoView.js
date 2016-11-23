@@ -5,7 +5,8 @@ muarg.Views = muarg.Views || {};
 
     muarg.Views.infoView = Backbone.View.extend({
         events: {
-            'click .next':'loadNew'
+            'click .next':'forward',
+            'click .prev':'backwards'
         },
         initialize: function(option) {
         	var _this = this
@@ -45,6 +46,16 @@ muarg.Views = muarg.Views || {};
                 
             })  
         	
+        },
+
+        forward: function() {
+            this.collection.setDate(this.collection.date()[0]+1)
+            // console.log(this.collection.date())
+        },
+
+        backwards: function() {
+            this.collection.setDate(this.collection.date()[0]-1)
+            // console.log(this.collection.date())
         },
 
         renderError: function() {

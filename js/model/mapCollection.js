@@ -35,6 +35,7 @@ muarg.Collections = muarg.Collections || {};
         },
 
         setDate: function(date) {
+        	if(date > this.dateRange().length || date < 0) return;
         	this._date = date
         	this.trigger('change')
         	return this._date
