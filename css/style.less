@@ -103,13 +103,20 @@ body {
 	bottom: 0;
 	max-width:1280px;
 	width:1280px;
+	height:70px!important;
+	opacity: 0.8;
+	background: #007CC3;
+	border-radius: 10px 10px 0 0;
+
+	.legend {
+		h3, span {
+			color: white;
+		}
+	}
+
 	#timeline {
 		width: 100%;
-		height:70px!important;
-		opacity: 0.8;
-		background: #007CC3;
-		border-radius: 10px 10px 0 0;
-
+		height: 40px;
 		.tick {
 			width: 100%;
 			position: absolute;
@@ -169,4 +176,20 @@ body {
 			}
 		}
 	}
+}
+
+.inline {
+	display: inline;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
 }
