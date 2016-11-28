@@ -39,17 +39,26 @@ muarg.Views = muarg.Views || {};
                 _.each(data,function(v) {
                     console.log(v)
 
+                    // To Fix
+                    // in mapModel.js the arrays are flattened
+                    // as well as the objects for easy parsing/search.
+                    // Once mapModel is fixed to NOT flaten arrays,
+                    // come back here to fix and remove the "_0"
+
+                    // Fills out intro to page
                     if(_this.collection.date()[0] == 0 && !start) {
                         report += "<h3>Welcome to our experiment with the <a href=\"http://www.data.mil\">THOR dataset</a>.</h3><h3>We hope you enjoy it, and learn a bit about US air warfare in World War 1.</h3>"
                             + "<p>You cans navigate through bomb-strikes on a daily basis, and read the reports from those bombings that were digitized by Lt Col Robertson and team.</p>"
                             start = true
                     }
 
+                    // Fills out "story" if exists in feature
                     if(v.get('properties_story')) {
                         report += "<h3>The Story</h3><p class=\"story\">"+v.get('properties_story')+"</p><hr>"
                     }
 
-                    // Fill in Reports
+                    // Fill in Reports 
+                    // (first check if any exist for spacing reasons)
                     if( v.get('properties_bomb_damage_assessment_0')
                         || v.get('properties_enemy_action_0')
                         || v.get('properties_friendly_casualties') ) {
@@ -57,13 +66,13 @@ muarg.Views = muarg.Views || {};
                         report += "<h3>Reports from "+_this.collection.date()[1]+"</h3>"
 
                         if (v.get('properties_bomb_damage_assessment_0')) {
-                                report += "<h3>Bomb Damage Assessment</h3>"
+                            report += "<h3>Bomb Damage Assessment</h3>"
                                 + "<p>"+v.get('properties_bomb_damage_assessment_0')+"</p>"
                             }
 
                         if (v.get('properties_enemy_action_0')) {
                             report += "<h3>Enemy Action</h3>"
-                            + "<p>"+v.get('properties_enemy_action_0')+"</p>"
+                                + "<p>"+v.get('properties_enemy_action_0')+"</p>"
                             }
 
                         if (v.get('properties_friendly_casualties')) {
