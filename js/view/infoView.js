@@ -30,10 +30,12 @@ muarg.Views = muarg.Views || {};
             var _this = this;
             console.log("Rendering",this.collection.date())
             var data = this.collection.where({'properties_date':this.collection.date()[1]})
-            console.log(data)
+            // console.log(data)
             var report = ''
 
-        	$(this.el).find('.content').empty().html(function() {
+            var story = false;
+
+        	$(this.el).find('.content').html(function() {
                 _.each(data,function(v) {
                     console.log(v)
 
@@ -42,20 +44,37 @@ muarg.Views = muarg.Views || {};
                             + "<p>You cans navigate through bomb-strikes on a daily basis, and read the reports from those bombings that were digitized by Lt Col Robertson and team.</p>"
                     }
 
-                    if(v.get('properties_story')) {
+                    if(v.get('properties_story') && story !== true) {
                         report += "<h3>The Story</h3><p class=\"story\">"+v.get('properties_story')+"</p><hr>"
+                        story = true
                     }
 
-                    report += "<h3>Reports from "+_this.collection.date()[1]+"</h3>"
+                    // Fill in Reports
+                    if( v.get('properties_bomb_damage_assessment_0')
+                        || v.get('properties_enemy_action_0')
+                        || v.get('properties_friendly_casualties') ) {
 
-                    report += "<h3>Bomb Damage Assessment</h3>"
-                            + "<p>"+v.get('properties_bomb_damage_assessment_0')+"</p>"
-                            + "<h3>Enemy Action</h3>"
-                            + "<p>"+v.get('properties_bomb_damage_assessment_0')+"</p>"
-                            + "<h3>Friendly Casualties</h3>"
-                            + "<p>"+v.get('properties_friendly_casualties')+"</p>"
-                            + "<hr>"
+                        report += "<h3>Reports from "+_this.collection.date()[1]+"</h3>"
 
+                        if (v.get('properties_bomb_damage_assessment_0')) {
+                                report += "<h3>Bomb Damage Assessment</h3>"
+                                + "<p>"+v.get('properties_bomb_damage_assessment_0')+"</p>"
+                            }
+
+                        if (v.get('properties_bomb_damage_assessment_0')) {
+                            report += "<h3>Enemy Action</h3>"
+                            + "<p>"+v.get('properties_enemy_action')+"</p>"
+                            }
+
+                        if (v.get('properties_friendly_casualties')) {
+                            report += "<h3>Friendly Casualties</h3>"
+                                + "<p>"+v.get('properties_friendly_casualties')+"</p>"
+                            }
+
+                        report += "<hr>"
+
+                        }
+                    // }
                 })
                 return report 
                 
