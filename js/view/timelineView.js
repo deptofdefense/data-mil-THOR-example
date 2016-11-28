@@ -14,12 +14,13 @@ muarg.Views = muarg.Views || {};
             this.renderTicker();
             this.listenTo(this.collection, 'sync', this.render);
 			this.listenTo(this.collection, 'change', this.renderTicker);
+            $(window).bind("resize", _.bind(this.resize, this));
         },
 
         render: function() {
             var _this = this
             $('.tick').empty()
-            this.collection.each(function(v){
+             this.collection.each(function(v){
                 var range = _this.collection.dateRange();
                 var dateIndex = _.toArray(_this.collection.dateRange()).indexOf(v.get('properties_date')) // _.findWhere(_this.collection.dateRange(), v.get('properties_date'))
                 console.log(dateIndex)
@@ -27,9 +28,9 @@ muarg.Views = muarg.Views || {};
                 if( $('.tick').find('#'+dateIndex).length > 0) return
                 $('.tick').append(
                     $('<div>').addClass('ticked')
-                    .attr('id',dateIndex)
-                    .css('left',loc)
-                    .html(String(range[dateIndex]).split('-')[1]+'/'+String(range[dateIndex]).split('-')[2]))
+                        .attr('id',dateIndex)
+                        .css('left',loc)
+                        .html(String(range[dateIndex]).split('-')[1]+'/'+String(range[dateIndex]).split('-')[2]))
             })
         },
 
@@ -41,6 +42,19 @@ muarg.Views = muarg.Views || {};
                 // console.log(tickerLoc)
                 return tickerLoc+15
             }).find('.year').html(_this.collection.date()[1])
+            if($('.ticker').position().left > $('#timeline').width()-150 && $('.ticker').find('.year').position().left > 0) {
+                $('.ticker').find('.year').fadeOut(function(e){
+                    $('.ticker').find('.year').css('left',-100).fadeIn()
+                })
+            } else if($('.ticker').position().left < $('#timeline').width()-150 && $('.ticker').find('.year').position().left < 0) {
+                $('.ticker').find('.year').fadeOut(function(e) {
+                    $('.ticker').find('.year').css('left',15).fadeIn()  
+                })
+            }
+        },
+
+        adjustLegend: function() {
+
         },
 
         renderError: function() {
@@ -48,7 +62,9 @@ muarg.Views = muarg.Views || {};
         },
 
         resize: function() {
-
+            console.log("RESIZIE")
+            this.render();
+            this.renderTicker();
         },
 
         changeDate: function(e) {

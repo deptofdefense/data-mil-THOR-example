@@ -14,7 +14,7 @@ body {
 #content {
 	// position: absolute;
 	max-width:1280px;
-	width:1280px;
+	width:100%;
 	position: relative;
 	z-index: 10;
 	background: transparent;
@@ -41,7 +41,12 @@ body {
 }
 
 #info {
+	max-height:400px;
 
+	@media (max-width:641px) {
+		max-height: auto;
+	}
+	// overflow: auto
 	p {
 		font-family: "Source Sans Pro",sans-serif;
 		font-size: 16px;
@@ -55,11 +60,29 @@ body {
 		color: #323A44;
 		font-weight:800;
 	}
+	.story {
+		font-family: "Merriweather",serif;
+		font-size: 14px;
+		line-height: 18px;
+		color: #323A44;
+		font-weight:500;
+	}
 
-	padding: 20px 40px;
+	// margin-right: 20px;
+	padding: 20px 0px 20px 40px;
 	position: relative;
 	background: #FFFFFF;
 	border: 2px solid #323A44;
+
+	@media (max-width:641px) {
+		// position: absolute;
+		// bottom: 0; left: 0;
+		// height: 50%;
+		margin-top: 90%;
+		border-width: 2px 0 0 0;
+
+	}
+
 
 	.country {
 		width: 75px; height:75px;
@@ -70,11 +93,21 @@ body {
 		background-size: contain;
 		background-repeat:no-repeat;
 		margin: 5px auto;
+
+		@media (max-width:641px) {
+			left: 45%;
+			top: -37px;
+		}
 	}
 	.controls {
 		position: absolute;
 		top: 0; right: 0;
-		margin: 5px 40px 10px 40px;
+		margin: 5px 40px 0px 40px;
+		@media (max-width:641px) {
+			width: 100%;
+			margin: 0;
+			padding: 10px;
+		}
 	}
 	.next {
 		padding: 0 10px;
@@ -86,10 +119,22 @@ body {
 	}
 
 	.content {
+		margin-top: 20px;
+		padding-right: 40px!important;
 		-webkit-transition: width .3s, max-height 1s, opacity 2s;
 		transition: width .3s, max-height 1s, opacity 2s;
-	    overflow:auto;
-	    max-height:600px;
+	    overflow:hidden;
+	    overflow-y: scroll;
+	    padding-right: 10px;
+	    height: 340px;
+	    max-height:360px;
+
+	    @media (max-width:641px) {
+	    	margin-top:40px!important;
+	    	margin-bottom:75px;
+			overflow: visible;
+			max-height:inherit;
+	    }
 	}
 }
 
@@ -99,17 +144,32 @@ body {
 
 #controls {
 	z-index: 10;
-	position:absolute;
-	bottom: 0;
+	position:fixed;
+	margin-left: 5%;
+	margin-right: 5%;
+	bottom: 0; left: 0;
 	max-width:1280px;
-	width:1280px;
+	width:90%;
+	height:70px!important;
+	opacity: 0.8;
+	background: #007CC3;
+	border-radius: 10px 10px 0 0;
+
+	@media (max-width:641px) {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.legend {
+		h3, span {
+			color: white;
+		}
+	}
+
 	#timeline {
 		width: 100%;
-		height:70px!important;
-		opacity: 0.8;
-		background: #007CC3;
-		border-radius: 10px 10px 0 0;
-
+		height: 40px;
 		.tick {
 			width: 100%;
 			position: absolute;
@@ -117,6 +177,10 @@ body {
 			left: 0;
 			height: 50px;
 			.ticked {
+				@media (max-width:641px) {
+					display: none;
+				}
+
 				font-family: "Source Sans Pro",sans-serif;
 				font-size: 0;
 				color: #323A44;
@@ -162,11 +226,51 @@ body {
 				color: white;
 				font-weight:800;
 				position: absolute;
-				top: 70px;
-				left: -50px;
+				// top: 70px;
+				// left: -50px;
+				top: 50px;
+				left: 15px;
 				text-align: center;
 				width: 100px;
+
+				@media (max-width:641px) {
+					top: 30px;
+				}
 			}
 		}
 	}
+}
+
+.btn {
+	font-family: "Source Sans Pro",sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	border-color: #007CC3;
+	margin-left: 3px;
+	-webkit-transition: background .3s;
+	transition: background .3s;
+	@media (max-width:641px) {
+		height: 42px;
+	}
+
+	&:active {
+		background: #007CC3;
+		color: white;
+	}
+}
+
+.inline {
+	display: inline;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
 }

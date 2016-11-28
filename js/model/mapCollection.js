@@ -54,6 +54,14 @@ muarg.Collections = muarg.Collections || {};
         	return t
         },
 
+        returnAllCoords: function() {
+            var t = this.map(function(model) {
+                return [model.get('geometry_coordinates_1'),model.get('geometry_coordinates_0')]
+            })
+
+            return t
+        },
+
         setDate: function(date) {
         	if(date > this.dateRange().length || date < 0) return;
         	this._date = date

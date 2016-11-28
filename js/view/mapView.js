@@ -18,6 +18,7 @@ muarg.Views = muarg.Views || {};
                     L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
                         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     }).addTo(_this.map);
+                    _this.collection.setDate(0);
                     _this.render()
                 },
                 error: function() {
@@ -62,6 +63,17 @@ muarg.Views = muarg.Views || {};
             })
             var feature = L.featureGroup(t)
             this.map.fitBounds(feature.getBounds().pad(2))
+
+        },
+
+        seeAll: function() {
+            var _this = this;
+            var t=[];
+            _.each(_this.collection.returnAllCoords(),function(v){
+                t.push(new L.marker(v))
+            })
+            var feature = L.featureGroup(t)
+            this.map.fitBounds(feature.getBounds().pad(.3))
 
         },
 

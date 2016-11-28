@@ -27,13 +27,27 @@ muarg.Views = muarg.Views || {};
         },
 
         render: function() {
+            var _this = this;
             console.log("Rendering",this.collection.date())
             var data = this.collection.where({'properties_date':this.collection.date()[1]})
             console.log(data)
             var report = ''
-        	$(this.el).find('.content').html(function() {
+
+        	$(this.el).find('.content').empty().html(function() {
                 _.each(data,function(v) {
                     console.log(v)
+
+                    if(_this.collection.date()[0] == 0) {
+                        report += "<h3>Welcome to our experiment with the <a href=\"http://www.data.mil\">THOR dataset</a>.</h3><h3>We hope you enjoy it, and learn a bit about US air warfare in World War 1.</h3>"
+                            + "<p>You cans navigate through bomb-strikes on a daily basis, and read the reports from those bombings that were digitized by Lt Col Robertson and team.</p>"
+                    }
+
+                    if(v.get('properties_story')) {
+                        report += "<h3>The Story</h3><p class=\"story\">"+v.get('properties_story')+"</p><hr>"
+                    }
+
+                    report += "<h3>Reports from "+_this.collection.date()[1]+"</h3>"
+
                     report += "<h3>Bomb Damage Assessment</h3>"
                             + "<p>"+v.get('properties_bomb_damage_assessment_0')+"</p>"
                             + "<h3>Enemy Action</h3>"
