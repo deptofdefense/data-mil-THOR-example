@@ -14,6 +14,7 @@ muarg.Views = muarg.Views || {};
             this.renderTicker();
             this.listenTo(this.collection, 'sync', this.render);
 			this.listenTo(this.collection, 'change', this.renderTicker);
+            // $(window).on("resize", this.resize, this);
         },
 
         render: function() {
@@ -41,6 +42,19 @@ muarg.Views = muarg.Views || {};
                 // console.log(tickerLoc)
                 return tickerLoc+15
             }).find('.year').html(_this.collection.date()[1])
+            if($('.ticker').position().left > $('#timeline').width()-150 && $('.ticker').find('.year').position().left > 0) {
+                $('.ticker').find('.year').fadeOut(function(e){
+                    $('.ticker').find('.year').css('left',-100).fadeIn()
+                })
+            } else if($('.ticker').position().left < $('#timeline').width()-150 && $('.ticker').find('.year').position().left < 0) {
+                $('.ticker').find('.year').fadeOut(function(e) {
+                    $('.ticker').find('.year').css('left',15).fadeIn()  
+                })
+            }
+        },
+
+        adjustLegend: function() {
+
         },
 
         renderError: function() {
@@ -48,7 +62,8 @@ muarg.Views = muarg.Views || {};
         },
 
         resize: function() {
-
+            // this.render();
+            // this.renderTicker();
         },
 
         changeDate: function(e) {
