@@ -725,5 +725,19 @@
    "bomb_damage_assessment": ["Bursts observed; railroad tracks were cut in the Yards, one fire was observed in the yards.  One explosion was caused southeast part of Mouson(?) in warehouses."],
    "friendly_casualties": "One of our planes was forced down with smoke coming out his engine.  An enemy Fokker followed him down firing continuously. Causing our plane to burst into flames.  Our observers brought this Fokker down and saw him crash.  1st Lieut Mendell (P) & 2nd Lie"
      }
+ },
+ {
+     "type": "Feature",
+     "id": 50,
+     "geometry": {
+         "type": "Point",
+         "coordinates": [-0.140634, 51.501476]
+     },
+     "properties": {
+   "location": "Buckingham Palace",
+   "date": "1918-11-11",
+   "story":"About a week after our last recorded bombing was Armistice Day: which ended both the Musese-Argonne Offensive and the war itself. In the final days before Armistice Day, the French forces conquered the immediate objective, Sedan and its critical railroad hub (the Advance to the Meuse (French: Poussée vers la Meuse)), on November 6 and American forces captured surrounding hills. On November 11, news of the German armistice (Signed at Buckingham Palace) put a sudden end to the fighting. (Source <a href=\"https://en.wikipedia.org/wiki/Meuse-Argonne_Offensive\">Wikipedia</a>"
+
+     }
  }]
 }
