@@ -19,6 +19,10 @@ body {
 	position: relative;
 	z-index: 10;
 	background: transparent;
+	@media (max-width:767px) {
+		width: 100%!important;
+		margin: 0;
+	}
 }
 
 #header {
@@ -99,7 +103,8 @@ body {
 		margin: 5px auto;
 
 		@media (max-width:767px) {
-			left: 45%;
+			left: 50%;
+			margin-left:-37px;
 			top: -37px;
 		}
 	}
@@ -108,7 +113,7 @@ body {
 		top: 0; right: 0;
 		margin: 5px 40px 0px 40px;
 		@media (max-width:767px) {
-			width: 93%;
+			width: 100%;
 			left: 0;
 			margin: 0;
 			padding: 10px;
