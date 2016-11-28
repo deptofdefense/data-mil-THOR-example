@@ -18,6 +18,7 @@ muarg.Views = muarg.Views || {};
         },
 
         render: function() {
+            $('#content').width($(window).width())
             var _this = this
             $('.tick').empty()
              this.collection.each(function(v){
@@ -37,11 +38,14 @@ muarg.Views = muarg.Views || {};
         renderTicker: function() {
         	// $(this.el).find('').html()
             var _this = this;
+            // Moves ticker around
         	$('.ticker').css('left',function() {
                 var tickerLoc = (_this.collection.date()[0]/_.size(_this.collection.dateRange())) * $('#timeline').width();
                 // console.log(tickerLoc)
                 return tickerLoc+15
             }).find('.year').html(_this.collection.date()[1])
+            
+            // Render ticker text position to prevent being cut off
             if($('.ticker').position().left > $('#timeline').width()-150 && $('.ticker').find('.year').position().left > 0) {
                 $('.ticker').find('.year').fadeOut(function(e){
                     $('.ticker').find('.year').css('left',-100).fadeIn()
@@ -51,6 +55,13 @@ muarg.Views = muarg.Views || {};
                     $('.ticker').find('.year').css('left',15).fadeIn()  
                 })
             }
+
+            if( $('.legend .active').attr('id') < this.collection.date()[0] &&
+                $('.legend .active').next().attr('id') > this.collection.date()[0]) {
+                $('.legend .active').removeClass('active').next().addClass('active')
+            }
+
+            // Renders the text.
         },
 
         adjustLegend: function() {
@@ -62,7 +73,6 @@ muarg.Views = muarg.Views || {};
         },
 
         resize: function() {
-            console.log("RESIZIE")
             this.render();
             this.renderTicker();
         },

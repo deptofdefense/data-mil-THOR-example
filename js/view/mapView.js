@@ -63,7 +63,6 @@ muarg.Views = muarg.Views || {};
             })
             var feature = L.featureGroup(t)
             this.map.fitBounds(feature.getBounds().pad(2))
-
         },
 
         seeAll: function() {
