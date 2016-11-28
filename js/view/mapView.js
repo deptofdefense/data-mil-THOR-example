@@ -60,6 +60,7 @@ muarg.Views = muarg.Views || {};
             var t=[];
             _.each(_this.collection.getAllCoordsByDate(),function(v){
                 t.push(new L.marker(v))
+                console.log(v)
             })
             var feature = L.featureGroup(t)
             this.map.fitBounds(feature.getBounds().pad(2))

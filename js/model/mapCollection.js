@@ -11,7 +11,7 @@ muarg.Collections = muarg.Collections || {};
 
         date: function() {
         	var dr = this.dateRange()
-        	return [this._date,dr[this._date]]
+        	return [parseInt(this._date),dr[this._date]]
         },
 
         // Shouldn't process each time
@@ -64,7 +64,8 @@ muarg.Collections = muarg.Collections || {};
 
         setDate: function(date) {
         	if(date > this.dateRange().length || date < 0) return;
-        	this._date = date
+        	this._date = parseInt(date)
+            console.log("change to",date)
         	this.trigger('change')
         	return this._date
         },
