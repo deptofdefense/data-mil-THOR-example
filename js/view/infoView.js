@@ -48,7 +48,7 @@ muarg.Views = muarg.Views || {};
                     // Fills out intro to page
                     if(_this.collection.date()[0] == 0 && !start) {
                         report += "<h3>Welcome to our experiment with the <a href=\"http://www.data.mil\">THOR dataset</a>.</h3><h3>We hope you enjoy it, and learn a bit about US air warfare in first World War.</h3>"
-                            + "<p>You can navigate through the aerial bombings during the Muese-Argonne Offensive, and read some of the after action reports compiled by Lieutenant Colonel Robertson and team.</p>"
+                            + "<p>You can navigate through the aerial bombings during each day of the Muese-Argonne Offensive, and read  the official after action reports relayed by WWI pilots in 1918. This data was compiled  by Lieutenant Colonel Robertson and the THOR team. Learn more.</p>"
                             + "<p>We made this demo to demonstrate a potential use of the dataset, and how to play with the data involved. <a href=\"http://github.com/deptofdefense/data-mil-THOR-example\">You can fork the code here.</a></p>"
                             + "<p>You can also read the Wikipedia article about the Muese-Argonne offensive here: <a href=\"https://en.wikipedia.org/wiki/Meuse-Argonne_Offensive\">The Meuse-Argonne Offensive: Wikipedia</a></p>"
                             start = true
