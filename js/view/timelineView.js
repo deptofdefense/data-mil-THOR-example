@@ -24,7 +24,7 @@ muarg.Views = muarg.Views || {};
              this.collection.each(function(v){
                 var range = _this.collection.dateRange();
                 var dateIndex = _.toArray(_this.collection.dateRange()).indexOf(v.get('properties_date')) // _.findWhere(_this.collection.dateRange(), v.get('properties_date'))
-                console.log(dateIndex)
+                // console.log(dateIndex)
                 var loc = ( dateIndex/_.size(_this.collection.dateRange())) * $('#timeline').width();
                 if( $('.tick').find('#'+dateIndex).length > 0) return
                 $('.tick').append(
