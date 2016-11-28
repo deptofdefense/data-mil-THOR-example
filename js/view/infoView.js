@@ -94,12 +94,12 @@ muarg.Views = muarg.Views || {};
         },
 
         forward: function() {
-            this.collection.setDate(this.collection.date()[0]+1)
+            this.collection.setDate(parseInt(this.collection.date()[0])+1)
             // console.log(this.collection.date())
         },
 
         backwards: function() {
-            this.collection.setDate(this.collection.date()[0]-1)
+            this.collection.setDate(parseInt(this.collection.date()[0])-1)
             // console.log(this.collection.date())
         },
 
