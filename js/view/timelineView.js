@@ -78,7 +78,7 @@ muarg.Views = muarg.Views || {};
         },
 
         changeDate: function(e) {
-            console.log("Switching to",$(e.currentTarget).attr('id'))
+            // console.log("Switching to",$(e.currentTarget).attr('id'))
             this.collection.setDate($(e.currentTarget).attr('id'))
         }
 
