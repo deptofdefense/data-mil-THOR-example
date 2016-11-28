@@ -1,4 +1,4 @@
-muarg.Models = muarg.Models || {};
+muarg.Models = muarg.Models || {};  
 
 (function () {
     'use strict';
@@ -20,6 +20,8 @@ muarg.Models = muarg.Models || {};
             return response;
         },
 
+        // This should not flatten arrays.
+        // Fix this
         flatten: function(x, result, prefix) {
             var _this = this;
             if(_.isObject(x)) {
