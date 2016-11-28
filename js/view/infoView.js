@@ -33,20 +33,20 @@ muarg.Views = muarg.Views || {};
             // console.log(data)
             var report = ''
 
-            var story = false;
+            var start = false;
 
         	$(this.el).find('.content').html(function() {
                 _.each(data,function(v) {
                     console.log(v)
 
-                    if(_this.collection.date()[0] == 0) {
+                    if(_this.collection.date()[0] == 0 && !start) {
                         report += "<h3>Welcome to our experiment with the <a href=\"http://www.data.mil\">THOR dataset</a>.</h3><h3>We hope you enjoy it, and learn a bit about US air warfare in World War 1.</h3>"
                             + "<p>You cans navigate through bomb-strikes on a daily basis, and read the reports from those bombings that were digitized by Lt Col Robertson and team.</p>"
+                            start = true
                     }
 
-                    if(v.get('properties_story') && story !== true) {
+                    if(v.get('properties_story')) {
                         report += "<h3>The Story</h3><p class=\"story\">"+v.get('properties_story')+"</p><hr>"
-                        story = true
                     }
 
                     // Fill in Reports
@@ -61,9 +61,9 @@ muarg.Views = muarg.Views || {};
                                 + "<p>"+v.get('properties_bomb_damage_assessment_0')+"</p>"
                             }
 
-                        if (v.get('properties_bomb_damage_assessment_0')) {
+                        if (v.get('properties_enemy_action_0')) {
                             report += "<h3>Enemy Action</h3>"
-                            + "<p>"+v.get('properties_enemy_action')+"</p>"
+                            + "<p>"+v.get('properties_enemy_action_0')+"</p>"
                             }
 
                         if (v.get('properties_friendly_casualties')) {
