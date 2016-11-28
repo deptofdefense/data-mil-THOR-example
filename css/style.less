@@ -23,6 +23,9 @@ body {
 #header {
 	height: 100px;
 	.logo {
+		@media (max-width:767px) {
+			height: 42px;
+		}
 		height: 100px;
 		display: block;
 		background-image: url(../img/datamil-exp-logo.png);
@@ -43,7 +46,7 @@ body {
 #info {
 	max-height:400px;
 
-	@media (max-width:641px) {
+	@media (max-width:767px) {
 		max-height: auto;
 	}
 	// overflow: auto
@@ -74,7 +77,7 @@ body {
 	background: #FFFFFF;
 	border: 2px solid #323A44;
 
-	@media (max-width:641px) {
+	@media (max-width:767px) {
 		// position: absolute;
 		// bottom: 0; left: 0;
 		// height: 50%;
@@ -94,7 +97,7 @@ body {
 		background-repeat:no-repeat;
 		margin: 5px auto;
 
-		@media (max-width:641px) {
+		@media (max-width:767px) {
 			left: 45%;
 			top: -37px;
 		}
@@ -103,7 +106,7 @@ body {
 		position: absolute;
 		top: 0; right: 0;
 		margin: 5px 40px 0px 40px;
-		@media (max-width:641px) {
+		@media (max-width:767px) {
 			width: 100%;
 			margin: 0;
 			padding: 10px;
@@ -129,7 +132,7 @@ body {
 	    height: 340px;
 	    max-height:360px;
 
-	    @media (max-width:641px) {
+	    @media (max-width:767px) {
 	    	margin-top:40px!important;
 	    	margin-bottom:75px;
 			overflow: visible;
@@ -155,7 +158,7 @@ body {
 	background: #007CC3;
 	border-radius: 10px 10px 0 0;
 
-	@media (max-width:641px) {
+	@media (max-width:767px) {
 		width: 100%;
 		margin-left: 0;
 		margin-right: 0;
@@ -177,7 +180,7 @@ body {
 			left: 0;
 			height: 50px;
 			.ticked {
-				@media (max-width:641px) {
+				@media (max-width:767px) {
 					display: none;
 				}
 
@@ -233,7 +236,7 @@ body {
 				text-align: center;
 				width: 100px;
 
-				@media (max-width:641px) {
+				@media (max-width:767px) {
 					top: 30px;
 				}
 			}
@@ -244,13 +247,15 @@ body {
 .btn {
 	font-family: "Source Sans Pro",sans-serif;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 600;
 	border-color: #007CC3;
 	margin-left: 3px;
 	-webkit-transition: background .3s;
 	transition: background .3s;
-	@media (max-width:641px) {
+	@media (max-width:767px) {
 		height: 42px;
+		padding-top: 10px!important;
+
 	}
 
 	&:active {
