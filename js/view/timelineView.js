@@ -18,7 +18,8 @@ muarg.Views = muarg.Views || {};
         },
 
         render: function() {
-            $('#content').width($(window).width())
+            $('#content').width($(window).width()*.9)
+
             var _this = this
             $('.tick').empty()
              this.collection.each(function(v){
