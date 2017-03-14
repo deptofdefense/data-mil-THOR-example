@@ -1,5 +1,3 @@
-Andrew Lovett-Barron
-andrew@dds.mil
+2016 Andrew Lovett-Barron
 
-Brandon Bouier
-brandon@dds.mil
+2016 Brandon Bouier
