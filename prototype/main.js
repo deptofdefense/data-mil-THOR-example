@@ -1,3 +1,7 @@
+// portions of code adapted & modified (unknown CC license) from
+// http://www.cartographicperspectives.org/index.php/journal/article/view/cp76-donohue-et-al/1307
+// copyright © 2014 University of Wisconsin-Madison Board of Regents
+
 $(document).ready(function() {
     var cities;
     var map = L.map('map', {

@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/readywater/data-mil-THOR-example.git"
+    "url": "git+https://github.com/deptofdefense/data-mil-THOR-example.git"
   },
   "scripts":{
     "dev" : "lite-server"
@@ -22,9 +22,9 @@
   "author": "Andrew Lovett-Barron/Brandon Bouier",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/readywater/data-mil-THOR-example/issues"
+    "url": "https://github.com/deptofdefense/data-mil-THOR-example/issues"
   },
-  "homepage": "https://github.com/readywater/data-mil-THOR-example#readme",
+  "homepage": "https://github.com/deptofdefense/data-mil-THOR-example#readme",
   "dev": "lite-server",
   "devDependencies": {
     "browser-sync": "^2.18.1",
