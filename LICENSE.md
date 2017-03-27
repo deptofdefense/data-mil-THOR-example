@@ -1,6 +1,6 @@
 MIT License
 
-Copyright \<YEAR> U.S. Federal Government (in countries where recognized)
+Copyright 2016 U.S. Federal Government (in countries where recognized)
 
 Copyright \<YEAR> \<COPYRIGHT HOLDER>
 
