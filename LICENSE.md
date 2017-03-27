@@ -1,6 +1,7 @@
 MIT License
 
 Copyright \<YEAR> U.S. Federal Government (in countries where recognized)
+
 Copyright \<YEAR> \<COPYRIGHT HOLDER>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
